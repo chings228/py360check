@@ -1,0 +1,17 @@
+{
+  "name": "opencv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@techstark/opencv-js": "^5.0.0-release.1",
+    "@u4/opencv4nodejs": "^6.1.4",
+    "canvas": "^3.2.3",
+    "sharp": "^0.35.3"
+  }
+}
