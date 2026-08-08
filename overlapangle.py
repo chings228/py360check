@@ -9,6 +9,8 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
     # 1. Load images
     img1 = cv2.imread(img1_path)
     img2 = cv2.imread(img2_path)
+
+   
     
     if img1 is None or img2 is None:
         raise FileNotFoundError("Could not load one or both image files.")
@@ -80,6 +82,10 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
     print(f"Horizontal Shift (dx): {median_dx:.2f} px")
     print(f"Relative Yaw Angle: {yaw_angle:.2f}°")
 
+    if (yaw_angle < 0):
+        yaw_angle += 360
+
+
     return {
         "connected": True,
         "inliers": len(valid_dx),
@@ -92,6 +98,7 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
 
 
 # --- Example Usage ---
-result = check_equirectangular_connection("input2_360.jpg", "input1_360.jpg")
+result = check_equirectangular_connection("bus2.jpg", "bus1.jpg")
 
+print("Result : \n")
 print(result)
