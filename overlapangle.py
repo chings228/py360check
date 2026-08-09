@@ -1,6 +1,11 @@
 import cv2
 import numpy as np
 
+from pathlib import Path
+
+import json
+
+
 def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min_inliers=15):
     """
     Checks if two equirectangular photos overlap/connect horizontally
@@ -43,11 +48,13 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
         if m.distance < match_ratio * n.distance:
             good_matches.append(m)
 
-    print(f"Total Good Feature Matches: {len(good_matches)}")
+    # print(f"Total Good Feature Matches: {len(good_matches)}")
 
     if len(good_matches) < min_inliers:
-        print("Status: NOT Connected (Insufficient matching features)")
-        return {"connected": False, "yaw_angle": None}
+        # print("Status: NOT Connected (Insufficient matching features)")
+
+        
+        return {"connected": False, "yaw_angle": None,reason :"NOT Connected (Insufficient matching features"}
 
     # 4. Extract pixel coordinates of matching points
     pts1 = np.float32([kp1[m.queryIdx].pt for m in good_matches])
@@ -64,8 +71,8 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
     valid_dx = dx_list[valid_mask]
 
     if len(valid_dx) < min_inliers:
-        print("Status: NOT Connected (Matches lack consistent horizontal alignment)")
-        return {"connected": False, "yaw_angle": None}
+        # print("Status: NOT Connected (Matches lack consistent horizontal alignment)")
+        return {"connected": False, "yaw_angle": None ,"reason" : "NOT Connected (Matches lack consistent horizontal alignment"}
 
     # Median horizontal pixel shift (dx)
     median_dx = float(np.median(valid_dx))
@@ -77,10 +84,10 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
     # Normalize yaw angle to [-180°, 180°]
     yaw_angle = (yaw_angle + 180) % 360 - 180
 
-    print("Status: CONNECTED")
-    print(f"Inlier Matches: {len(valid_dx)}")
-    print(f"Horizontal Shift (dx): {median_dx:.2f} px")
-    print(f"Relative Yaw Angle: {yaw_angle:.2f}°")
+    # print("Status: CONNECTED")
+    # print(f"Inlier Matches: {len(valid_dx)}")
+    # print(f"Horizontal Shift (dx): {median_dx:.2f} px")
+    # print(f"Relative Yaw Angle: {yaw_angle:.2f}°")
 
     if (yaw_angle < 0):
         yaw_angle += 360
@@ -88,9 +95,13 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
 
     return {
         "connected": True,
+        "good matches" : len(good_matches),
         "inliers": len(valid_dx),
         "pixel_shift_x": median_dx,
-        "yaw_angle": yaw_angle
+        "yaw_angle": yaw_angle,
+
+
+
     }
 
 
@@ -98,7 +109,44 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
 
 
 # --- Example Usage ---
-result = check_equirectangular_connection("bus2.jpg", "bus1.jpg")
 
-print("Result : \n")
-print(result)
+path = 'scene1'
+
+folder_path = Path(path)
+
+list = []
+
+comparefn = f"{path}/1k3pxz5igerswuerzfqwxmtxd.jpg"
+
+
+
+print(comparefn)
+
+
+for file_path in folder_path.iterdir():
+
+    tocomparefn = file_path
+
+    result = check_equirectangular_connection(comparefn,tocomparefn)
+    print(file_path.name)
+    print(result)
+
+    list.append(result)
+
+    print("\n")
+
+
+
+
+
+
+
+with open("data.json", "w", encoding="utf-8") as file:
+    json.dump(list, file, indent=4 ,ensure_ascii=False)
+
+
+
+# result = check_equirectangular_connection("bus2.jpg", "bus1.jpg")
+
+# print("Result : \n")
+# print(result)

@@ -1,0 +1,70 @@
+[
+    {
+        "connected": false,
+        "yaw_angle": null,
+        "reason": "NOT Connected (Matches lack consistent horizontal alignment"
+    },
+    {
+        "connected": false,
+        "yaw_angle": null,
+        "reason": "NOT Connected (Matches lack consistent horizontal alignment"
+    },
+    {
+        "connected": false,
+        "yaw_angle": null,
+        "reason": "NOT Connected (Matches lack consistent horizontal alignment"
+    },
+    {
+        "connected": false,
+        "yaw_angle": null,
+        "reason": "NOT Connected (Matches lack consistent horizontal alignment"
+    },
+    {
+        "connected": true,
+        "good matches": 234,
+        "inliers": 103,
+        "pixel_shift_x": -8.4443359375,
+        "yaw_angle": 359.25782203674316
+    },
+    {
+        "connected": false,
+        "yaw_angle": null,
+        "reason": "NOT Connected (Matches lack consistent horizontal alignment"
+    },
+    {
+        "connected": false,
+        "yaw_angle": null,
+        "reason": "NOT Connected (Matches lack consistent horizontal alignment"
+    },
+    {
+        "connected": false,
+        "yaw_angle": null,
+        "reason": "NOT Connected (Matches lack consistent horizontal alignment"
+    },
+    {
+        "connected": true,
+        "good matches": 193,
+        "inliers": 43,
+        "pixel_shift_x": 12.072509765625,
+        "yaw_angle": 1.0610604286193848
+    },
+    {
+        "connected": false,
+        "yaw_angle": null,
+        "reason": "NOT Connected (Matches lack consistent horizontal alignment"
+    },
+    {
+        "connected": true,
+        "good matches": 5523,
+        "inliers": 5523,
+        "pixel_shift_x": 0.0,
+        "yaw_angle": 0.0
+    },
+    {
+        "connected": true,
+        "good matches": 188,
+        "inliers": 32,
+        "pixel_shift_x": -9.1971435546875,
+        "yaw_angle": 359.1916573047638
+    }
+]
