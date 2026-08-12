@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js" integrity="sha512-PYku51kWkxxuh0OiQHi8INwfDEVcEe9JYBiZCA21G0ITGdEUU7scEhTyutt69jK591vKJmBhPMP+yYMd6J88nQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+                "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.module.js"
+            }
+        }
+    </script>
+
+
+    <script src="split.js" type="module"></script>
+
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin : 0px;
+            padding : 0px
+        }
+
+
+        #splitbox{
+
+            display : flex;
+            height : 100vh;
+            width : 100vw;
+            flex-direction: row;
+        }
+
+
+
+        .splitdiv{
+
+            border : black 1px solid;
+            width : 100%;
+
+
+        }
+
+        .splitimg{
+
+
+        }
+
+
+
+        .splitimg{
+
+            height : 70%;
+            border : solid 1px black;
+            background-color: aliceblue;
+        }
+
+
+        .splittext *{
+
+                height : 30%;
+                /* border : solid 1px black;
+                background-color: blue; */
+                padding : 10px;
+        }
+
+        .detail{
+            line-height: 1.5;
+        }
+
+
+        </style>
+
+
+
+</head>
+<body>
+
+
+    <div id="splitbox">
+
+        <div class=splitdiv id =source>
+            <div class="splitimg" id="sourceviewer"></div>
+
+            <div class = splittext>
+            <div class = selectbar></div>
+            <div class="position"></div>
+            <div class="detail"></div>
+            </div>
+
+        </div>
+
+
+        <div class = splitdiv id = target>
+
+        <div class="splitimg" id="targetviewer"></div>
+            <div class = splittext>
+            <div class = selectbar></div>
+            <div class="position"></div>
+            <div class="detail"></div>
+            </div>
+    </div>
+
+
+
+</body>
+</html>

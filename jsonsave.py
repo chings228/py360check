@@ -41,5 +41,25 @@ print(list)
 
 
 
+hello = ['a','b','c']
+
+
+for obja in hello :
+
+    for objb in hello :
+
+        if (obja != objb ):
+
+            print(obja,objb)
+
+
+
+
+
+
+
+
+
+
 with open("data.json", "w", encoding="utf-8") as file:
     json.dump(list, file, indent=4 ,ensure_ascii=False)

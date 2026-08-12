@@ -4,6 +4,7 @@ import numpy as np
 from pathlib import Path
 
 import json
+import sys
 
 
 def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min_inliers=15):
@@ -108,32 +109,86 @@ def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min
 
 
 
+
+
+
+
+
+
 # --- Example Usage ---
 
 path = 'scene1'
 
 folder_path = Path(path)
 
-list = []
 
-comparefn = f"{path}/1k3pxz5igerswuerzfqwxmtxd.jpg"
-
-
-
-print(comparefn)
-
-
+sweeps = []
 for file_path in folder_path.iterdir():
 
-    tocomparefn = file_path
+    print(file_path)
+    sweeps.append(file_path.name)
 
-    result = check_equirectangular_connection(comparefn,tocomparefn)
-    print(file_path.name)
-    print(result)
 
-    list.append(result)
 
-    print("\n")
+print(sweeps)
+
+
+
+list = {}
+
+
+counter = 0;
+
+
+
+
+for sourcesweep in sweeps:
+
+
+    print(sourcesweep)
+
+    sublist = {}
+
+    for targetsweep in sweeps : 
+
+       
+
+        if (targetsweep != sourcesweep) :
+
+            print(f"counter {counter}")
+
+            print(sourcesweep,targetsweep)
+
+
+
+            sourcesweeppath = f"{path}/{sourcesweep}"
+            targetsweeppath = f"{path}/{targetsweep}"
+
+            print(sourcesweeppath,targetsweeppath)
+
+
+
+            result = check_equirectangular_connection(sourcesweeppath,targetsweeppath)
+            print(file_path.name)
+            print(result)
+
+            if (result["connected"]) :
+                result["sweep"] = targetsweep 
+                sublist[targetsweep] = result
+
+            list[sourcesweep] = sublist
+
+            print("\n")
+
+            counter = counter + 1
+
+
+
+
+
+print("\n\n")
+print(list)
+
 
 
 
