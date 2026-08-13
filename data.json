@@ -2,293 +2,745 @@
     "9ztg61dxmttpx5ekm2860ssqa.jpg": {
         "x93uwspxnc5kkdfzusf3558xa.jpg": {
             "connected": true,
-            "good matches": 302,
+            "good_matches": 301,
+            "inliers": 29,
+            "yaw_angle": 17.544599324361222,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "y6dh1680nc129c7a317t8mgzb.jpg": {
+            "connected": true,
+            "good_matches": 231,
+            "inliers": 21,
+            "yaw_angle": 54.50888132129347,
+            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+        },
+        "h3namb1h86m4ki5x5wds88fdd.jpg": {
+            "connected": true,
+            "good_matches": 456,
+            "inliers": 50,
+            "yaw_angle": 0.30391696578744254,
+            "sweep": "h3namb1h86m4ki5x5wds88fdd.jpg"
+        },
+        "s351keybpqykcr8w8ecnpd94a.jpg": {
+            "connected": true,
+            "good_matches": 276,
+            "inliers": 72,
+            "yaw_angle": 24.138726766184284,
+            "sweep": "s351keybpqykcr8w8ecnpd94a.jpg"
+        },
+        "tymru13ciuwcspp56rkkdykgb.jpg": {
+            "connected": true,
+            "good_matches": 260,
+            "inliers": 23,
+            "yaw_angle": 76.25948323946831,
+            "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
+        },
+        "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
+            "connected": true,
+            "good_matches": 185,
+            "inliers": 32,
+            "yaw_angle": 184.95588601681465,
+            "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
+        },
+        "kczwdranz1g5meippbbnc250b.jpg": {
+            "connected": true,
+            "good_matches": 349,
+            "inliers": 126,
+            "yaw_angle": 292.299817317434,
+            "sweep": "kczwdranz1g5meippbbnc250b.jpg"
+        },
+        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+            "connected": true,
+            "good_matches": 261,
+            "inliers": 53,
+            "yaw_angle": 279.07001414290113,
+            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
+        },
+        "7w9s4rke5qu9uq8zk03xsueec.jpg": {
+            "connected": true,
+            "good_matches": 232,
+            "inliers": 24,
+            "yaw_angle": 319.98068548972304,
+            "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
+        },
+        "1k3pxz5igerswuerzfqwxmtxd.jpg": {
+            "connected": true,
+            "good_matches": 278,
+            "inliers": 53,
+            "yaw_angle": 77.1448332839946,
+            "sweep": "1k3pxz5igerswuerzfqwxmtxd.jpg"
+        },
+        "fcd81es2iht9aexpk38fgurha.jpg": {
+            "connected": true,
+            "good_matches": 225,
+            "inliers": 33,
+            "yaw_angle": 240.2023816540069,
+            "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
+        }
+    },
+    "x93uwspxnc5kkdfzusf3558xa.jpg": {
+        "tymru13ciuwcspp56rkkdykgb.jpg": {
+            "connected": true,
+            "good_matches": 48,
+            "inliers": 15,
+            "yaw_angle": 356.9231272866799,
+            "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
+        },
+        "kczwdranz1g5meippbbnc250b.jpg": {
+            "connected": true,
+            "good_matches": 74,
             "inliers": 17,
-            "pixel_shift_x": 139.6012725830078,
-            "yaw_angle": 12.269643098115921,
+            "yaw_angle": 354.1954086797021,
+            "sweep": "kczwdranz1g5meippbbnc250b.jpg"
+        },
+        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+            "connected": true,
+            "good_matches": 66,
+            "inliers": 18,
+            "yaw_angle": 258.61493883128855,
+            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
+        },
+        "7w9s4rke5qu9uq8zk03xsueec.jpg": {
+            "connected": true,
+            "good_matches": 54,
+            "inliers": 19,
+            "yaw_angle": 0.33222446697210384,
+            "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
+        },
+        "fcd81es2iht9aexpk38fgurha.jpg": {
+            "connected": true,
+            "good_matches": 80,
+            "inliers": 38,
+            "yaw_angle": 359.9119381848924,
+            "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
+        }
+    },
+    "y6dh1680nc129c7a317t8mgzb.jpg": {
+        "9ztg61dxmttpx5ekm2860ssqa.jpg": {
+            "connected": true,
+            "good_matches": 107,
+            "inliers": 20,
+            "yaw_angle": 306.9486373472443,
+            "sweep": "9ztg61dxmttpx5ekm2860ssqa.jpg"
+        },
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
+            "connected": true,
+            "good_matches": 138,
+            "inliers": 21,
+            "yaw_angle": 71.77600396679928,
             "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
         },
         "h3namb1h86m4ki5x5wds88fdd.jpg": {
             "connected": true,
-            "good matches": 465,
-            "inliers": 31,
-            "pixel_shift_x": 88.1729736328125,
-            "yaw_angle": 7.749577760696411,
+            "good_matches": 232,
+            "inliers": 76,
+            "yaw_angle": 220.36279090043956,
             "sweep": "h3namb1h86m4ki5x5wds88fdd.jpg"
         },
-        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+        "s351keybpqykcr8w8ecnpd94a.jpg": {
             "connected": true,
-            "good matches": 269,
-            "inliers": 15,
-            "pixel_shift_x": 90.789306640625,
-            "yaw_angle": 7.979528903961182,
-            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
-        }
-    },
-    "x93uwspxnc5kkdfzusf3558xa.jpg": {},
-    "y6dh1680nc129c7a317t8mgzb.jpg": {
-        "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
-            "connected": true,
-            "good matches": 299,
-            "inliers": 21,
-            "pixel_shift_x": -1646.2144775390625,
-            "yaw_angle": 215.31318068504333,
-            "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
+            "good_matches": 147,
+            "inliers": 56,
+            "yaw_angle": 237.8458540821589,
+            "sweep": "s351keybpqykcr8w8ecnpd94a.jpg"
         },
-        "7w9s4rke5qu9uq8zk03xsueec.jpg": {
+        "tymru13ciuwcspp56rkkdykgb.jpg": {
             "connected": true,
-            "good matches": 255,
-            "inliers": 17,
-            "pixel_shift_x": -1074.769775390625,
-            "yaw_angle": 265.53781270980835,
-            "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
-        }
-    },
-    "h3namb1h86m4ki5x5wds88fdd.jpg": {},
-    "s351keybpqykcr8w8ecnpd94a.jpg": {},
-    "tymru13ciuwcspp56rkkdykgb.jpg": {
-        "y6dh1680nc129c7a317t8mgzb.jpg": {
-            "connected": true,
-            "good matches": 111,
-            "inliers": 32,
-            "pixel_shift_x": -193.347412109375,
-            "yaw_angle": 343.00657510757446,
-            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+            "good_matches": 181,
+            "inliers": 25,
+            "yaw_angle": 230.18269618014975,
+            "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
         },
         "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
             "connected": true,
-            "good matches": 294,
-            "inliers": 41,
-            "pixel_shift_x": 97.26416015625,
-            "yaw_angle": 8.54860782623291,
+            "good_matches": 296,
+            "inliers": 141,
+            "yaw_angle": 85.72985790721748,
             "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
         },
         "kczwdranz1g5meippbbnc250b.jpg": {
             "connected": true,
-            "good matches": 200,
-            "inliers": 15,
-            "pixel_shift_x": -1.437744140625,
-            "yaw_angle": 359.8736357688904,
+            "good_matches": 285,
+            "inliers": 133,
+            "yaw_angle": 184.51779517667453,
             "sweep": "kczwdranz1g5meippbbnc250b.jpg"
+        },
+        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+            "connected": true,
+            "good_matches": 175,
+            "inliers": 31,
+            "yaw_angle": 64.64560271976008,
+            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
         },
         "7w9s4rke5qu9uq8zk03xsueec.jpg": {
             "connected": true,
-            "good matches": 262,
-            "inliers": 93,
-            "pixel_shift_x": -145.489013671875,
-            "yaw_angle": 347.21287965774536,
+            "good_matches": 252,
+            "inliers": 57,
+            "yaw_angle": 296.20573473653303,
             "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
         },
         "1k3pxz5igerswuerzfqwxmtxd.jpg": {
             "connected": true,
-            "good matches": 118,
-            "inliers": 15,
-            "pixel_shift_x": 2497.288330078125,
-            "yaw_angle": 219.4882321357727,
+            "good_matches": 136,
+            "inliers": 21,
+            "yaw_angle": 288.0456064765547,
             "sweep": "1k3pxz5igerswuerzfqwxmtxd.jpg"
         },
         "fcd81es2iht9aexpk38fgurha.jpg": {
             "connected": true,
-            "good matches": 142,
-            "inliers": 34,
-            "pixel_shift_x": -526.18896484375,
-            "yaw_angle": 313.7529230117798,
+            "good_matches": 150,
+            "inliers": 21,
+            "yaw_angle": 58.062553158720995,
+            "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
+        }
+    },
+    "h3namb1h86m4ki5x5wds88fdd.jpg": {
+        "9ztg61dxmttpx5ekm2860ssqa.jpg": {
+            "connected": true,
+            "good_matches": 160,
+            "inliers": 33,
+            "yaw_angle": 9.245973197643243,
+            "sweep": "9ztg61dxmttpx5ekm2860ssqa.jpg"
+        },
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
+            "connected": true,
+            "good_matches": 130,
+            "inliers": 18,
+            "yaw_angle": 358.1819356120266,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
+            "connected": true,
+            "good_matches": 82,
+            "inliers": 25,
+            "yaw_angle": 328.9384645914837,
+            "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
+        },
+        "kczwdranz1g5meippbbnc250b.jpg": {
+            "connected": true,
+            "good_matches": 59,
+            "inliers": 15,
+            "yaw_angle": 2.817882097681842,
+            "sweep": "kczwdranz1g5meippbbnc250b.jpg"
+        },
+        "fcd81es2iht9aexpk38fgurha.jpg": {
+            "connected": true,
+            "good_matches": 70,
+            "inliers": 20,
+            "yaw_angle": 14.195783783346853,
+            "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
+        }
+    },
+    "s351keybpqykcr8w8ecnpd94a.jpg": {
+        "9ztg61dxmttpx5ekm2860ssqa.jpg": {
+            "connected": true,
+            "good_matches": 232,
+            "inliers": 19,
+            "yaw_angle": 112.00398319239925,
+            "sweep": "9ztg61dxmttpx5ekm2860ssqa.jpg"
+        },
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
+            "connected": true,
+            "good_matches": 418,
+            "inliers": 59,
+            "yaw_angle": 2.4223825372943537,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "y6dh1680nc129c7a317t8mgzb.jpg": {
+            "connected": true,
+            "good_matches": 285,
+            "inliers": 16,
+            "yaw_angle": 356.18216211989215,
+            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+        },
+        "h3namb1h86m4ki5x5wds88fdd.jpg": {
+            "connected": true,
+            "good_matches": 292,
+            "inliers": 22,
+            "yaw_angle": 260.5746327627411,
+            "sweep": "h3namb1h86m4ki5x5wds88fdd.jpg"
+        },
+        "tymru13ciuwcspp56rkkdykgb.jpg": {
+            "connected": true,
+            "good_matches": 339,
+            "inliers": 23,
+            "yaw_angle": 220.10345312805413,
+            "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
+        },
+        "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
+            "connected": true,
+            "good_matches": 279,
+            "inliers": 37,
+            "yaw_angle": 252.25435705477366,
+            "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
+        },
+        "kczwdranz1g5meippbbnc250b.jpg": {
+            "connected": true,
+            "good_matches": 277,
+            "inliers": 32,
+            "yaw_angle": 146.62380171181204,
+            "sweep": "kczwdranz1g5meippbbnc250b.jpg"
+        },
+        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+            "connected": true,
+            "good_matches": 313,
+            "inliers": 38,
+            "yaw_angle": 211.0024099537216,
+            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
+        },
+        "7w9s4rke5qu9uq8zk03xsueec.jpg": {
+            "connected": true,
+            "good_matches": 285,
+            "inliers": 20,
+            "yaw_angle": 251.23601218622116,
+            "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
+        },
+        "1k3pxz5igerswuerzfqwxmtxd.jpg": {
+            "connected": true,
+            "good_matches": 486,
+            "inliers": 94,
+            "yaw_angle": 358.6773819418445,
+            "sweep": "1k3pxz5igerswuerzfqwxmtxd.jpg"
+        },
+        "fcd81es2iht9aexpk38fgurha.jpg": {
+            "connected": true,
+            "good_matches": 426,
+            "inliers": 49,
+            "yaw_angle": 355.53070069483636,
+            "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
+        }
+    },
+    "tymru13ciuwcspp56rkkdykgb.jpg": {
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
+            "connected": true,
+            "good_matches": 110,
+            "inliers": 21,
+            "yaw_angle": 9.175650603914761,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "y6dh1680nc129c7a317t8mgzb.jpg": {
+            "connected": true,
+            "good_matches": 108,
+            "inliers": 29,
+            "yaw_angle": 289.28365726214224,
+            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+        },
+        "h3namb1h86m4ki5x5wds88fdd.jpg": {
+            "connected": true,
+            "good_matches": 100,
+            "inliers": 15,
+            "yaw_angle": 236.46619368361675,
+            "sweep": "h3namb1h86m4ki5x5wds88fdd.jpg"
+        },
+        "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
+            "connected": true,
+            "good_matches": 285,
+            "inliers": 139,
+            "yaw_angle": 1.0592343274586005,
+            "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
+        },
+        "kczwdranz1g5meippbbnc250b.jpg": {
+            "connected": true,
+            "good_matches": 199,
+            "inliers": 65,
+            "yaw_angle": 0.1519786287615041,
+            "sweep": "kczwdranz1g5meippbbnc250b.jpg"
+        },
+        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+            "connected": true,
+            "good_matches": 139,
+            "inliers": 20,
+            "yaw_angle": 175.67786605833467,
+            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
+        },
+        "7w9s4rke5qu9uq8zk03xsueec.jpg": {
+            "connected": true,
+            "good_matches": 259,
+            "inliers": 154,
+            "yaw_angle": 359.92358084011715,
+            "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
+        },
+        "1k3pxz5igerswuerzfqwxmtxd.jpg": {
+            "connected": true,
+            "good_matches": 116,
+            "inliers": 21,
+            "yaw_angle": 311.6564634283106,
+            "sweep": "1k3pxz5igerswuerzfqwxmtxd.jpg"
+        },
+        "fcd81es2iht9aexpk38fgurha.jpg": {
+            "connected": true,
+            "good_matches": 141,
+            "inliers": 46,
+            "yaw_angle": 10.561525635484326,
             "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
         }
     },
     "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
+            "connected": true,
+            "good_matches": 161,
+            "inliers": 27,
+            "yaw_angle": 359.254495256866,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "y6dh1680nc129c7a317t8mgzb.jpg": {
+            "connected": true,
+            "good_matches": 159,
+            "inliers": 21,
+            "yaw_angle": 307.81122430410016,
+            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+        },
+        "h3namb1h86m4ki5x5wds88fdd.jpg": {
+            "connected": true,
+            "good_matches": 111,
+            "inliers": 26,
+            "yaw_angle": 92.34177493101153,
+            "sweep": "h3namb1h86m4ki5x5wds88fdd.jpg"
+        },
         "tymru13ciuwcspp56rkkdykgb.jpg": {
             "connected": true,
-            "good matches": 335,
-            "inliers": 35,
-            "pixel_shift_x": -98.974609375,
-            "yaw_angle": 351.3010597229004,
+            "good_matches": 322,
+            "inliers": 139,
+            "yaw_angle": 355.91747424246216,
             "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
         },
         "kczwdranz1g5meippbbnc250b.jpg": {
             "connected": true,
-            "good matches": 172,
-            "inliers": 16,
-            "pixel_shift_x": -128.1805419921875,
-            "yaw_angle": 348.7341320514679,
+            "good_matches": 166,
+            "inliers": 21,
+            "yaw_angle": 191.1534640906675,
             "sweep": "kczwdranz1g5meippbbnc250b.jpg"
         },
         "yb8bpc2x8xtwstr860uutdksd.jpg": {
             "connected": true,
-            "good matches": 194,
-            "inliers": 17,
-            "pixel_shift_x": -221.891357421875,
-            "yaw_angle": 340.497829914093,
+            "good_matches": 187,
+            "inliers": 36,
+            "yaw_angle": 359.8917337433929,
             "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
         },
         "7w9s4rke5qu9uq8zk03xsueec.jpg": {
             "connected": true,
-            "good matches": 228,
-            "inliers": 26,
-            "pixel_shift_x": -226.6995849609375,
-            "yaw_angle": 340.0752317905426,
+            "good_matches": 223,
+            "inliers": 60,
+            "yaw_angle": 359.215026210821,
             "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
+        },
+        "1k3pxz5igerswuerzfqwxmtxd.jpg": {
+            "connected": true,
+            "good_matches": 160,
+            "inliers": 31,
+            "yaw_angle": 41.15395775509162,
+            "sweep": "1k3pxz5igerswuerzfqwxmtxd.jpg"
+        },
+        "fcd81es2iht9aexpk38fgurha.jpg": {
+            "connected": true,
+            "good_matches": 168,
+            "inliers": 37,
+            "yaw_angle": 0.04139002915482635,
+            "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
         }
     },
     "kczwdranz1g5meippbbnc250b.jpg": {
-        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
             "connected": true,
-            "good matches": 97,
+            "good_matches": 105,
             "inliers": 35,
-            "pixel_shift_x": 10.304931640625,
-            "yaw_angle": 0.9057068824768066,
-            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
-        }
-    },
-    "yb8bpc2x8xtwstr860uutdksd.jpg": {
+            "yaw_angle": 177.67906156355096,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
         "tymru13ciuwcspp56rkkdykgb.jpg": {
             "connected": true,
-            "good matches": 140,
-            "inliers": 18,
-            "pixel_shift_x": 726.91064453125,
-            "yaw_angle": 63.888630867004395,
+            "good_matches": 122,
+            "inliers": 59,
+            "yaw_angle": 359.96128128797716,
             "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
         },
         "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
             "connected": true,
-            "good matches": 148,
-            "inliers": 26,
-            "pixel_shift_x": 383.8365478515625,
-            "yaw_angle": 33.735634088516235,
+            "good_matches": 92,
+            "inliers": 25,
+            "yaw_angle": 202.58424197501924,
+            "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
+        },
+        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+            "connected": true,
+            "good_matches": 95,
+            "inliers": 27,
+            "yaw_angle": 3.7325788532999375,
+            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
+        },
+        "7w9s4rke5qu9uq8zk03xsueec.jpg": {
+            "connected": true,
+            "good_matches": 99,
+            "inliers": 36,
+            "yaw_angle": 0.050748879912886444,
+            "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
+        },
+        "fcd81es2iht9aexpk38fgurha.jpg": {
+            "connected": true,
+            "good_matches": 72,
+            "inliers": 15,
+            "yaw_angle": 168.73122434631077,
+            "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
+        }
+    },
+    "yb8bpc2x8xtwstr860uutdksd.jpg": {
+        "9ztg61dxmttpx5ekm2860ssqa.jpg": {
+            "connected": true,
+            "good_matches": 83,
+            "inliers": 16,
+            "yaw_angle": 97.02654270304068,
+            "sweep": "9ztg61dxmttpx5ekm2860ssqa.jpg"
+        },
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
+            "connected": true,
+            "good_matches": 114,
+            "inliers": 17,
+            "yaw_angle": 19.348581610746272,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "y6dh1680nc129c7a317t8mgzb.jpg": {
+            "connected": true,
+            "good_matches": 116,
+            "inliers": 15,
+            "yaw_angle": 12.452247246969227,
+            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+        },
+        "tymru13ciuwcspp56rkkdykgb.jpg": {
+            "connected": true,
+            "good_matches": 138,
+            "inliers": 32,
+            "yaw_angle": 104.98692157159985,
+            "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
+        },
+        "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
+            "connected": true,
+            "good_matches": 147,
+            "inliers": 48,
+            "yaw_angle": 359.961015698775,
             "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
         },
         "kczwdranz1g5meippbbnc250b.jpg": {
             "connected": true,
-            "good matches": 161,
-            "inliers": 77,
-            "pixel_shift_x": -13.931095123291016,
-            "yaw_angle": 358.7755873426795,
+            "good_matches": 160,
+            "inliers": 45,
+            "yaw_angle": 354.1957503062092,
             "sweep": "kczwdranz1g5meippbbnc250b.jpg"
         },
         "1k3pxz5igerswuerzfqwxmtxd.jpg": {
             "connected": true,
-            "good matches": 148,
-            "inliers": 44,
-            "pixel_shift_x": -11.2889404296875,
-            "yaw_angle": 359.007807970047,
+            "good_matches": 146,
+            "inliers": 41,
+            "yaw_angle": 0.8520162373800164,
             "sweep": "1k3pxz5igerswuerzfqwxmtxd.jpg"
         }
     },
     "7w9s4rke5qu9uq8zk03xsueec.jpg": {
+        "9ztg61dxmttpx5ekm2860ssqa.jpg": {
+            "connected": true,
+            "good_matches": 134,
+            "inliers": 19,
+            "yaw_angle": 121.59364195992111,
+            "sweep": "9ztg61dxmttpx5ekm2860ssqa.jpg"
+        },
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
+            "connected": true,
+            "good_matches": 248,
+            "inliers": 48,
+            "yaw_angle": 137.92163463977207,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "y6dh1680nc129c7a317t8mgzb.jpg": {
+            "connected": true,
+            "good_matches": 222,
+            "inliers": 24,
+            "yaw_angle": 352.61445520624414,
+            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+        },
+        "h3namb1h86m4ki5x5wds88fdd.jpg": {
+            "connected": true,
+            "good_matches": 135,
+            "inliers": 26,
+            "yaw_angle": 72.62712189284564,
+            "sweep": "h3namb1h86m4ki5x5wds88fdd.jpg"
+        },
         "tymru13ciuwcspp56rkkdykgb.jpg": {
             "connected": true,
-            "good matches": 361,
-            "inliers": 103,
-            "pixel_shift_x": 144.2236328125,
-            "yaw_angle": 12.675905227661133,
+            "good_matches": 357,
+            "inliers": 163,
+            "yaw_angle": 0.24480861721703026,
             "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
         },
         "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
             "connected": true,
-            "good matches": 265,
-            "inliers": 27,
-            "pixel_shift_x": 120.96875,
-            "yaw_angle": 10.63201904296875,
+            "good_matches": 245,
+            "inliers": 46,
+            "yaw_angle": 2.522874758763114,
             "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
         },
         "kczwdranz1g5meippbbnc250b.jpg": {
             "connected": true,
-            "good matches": 214,
-            "inliers": 17,
-            "pixel_shift_x": -25.047119140625,
-            "yaw_angle": 357.798593044281,
+            "good_matches": 213,
+            "inliers": 39,
+            "yaw_angle": 0.10127254192798135,
             "sweep": "kczwdranz1g5meippbbnc250b.jpg"
         },
         "yb8bpc2x8xtwstr860uutdksd.jpg": {
             "connected": true,
-            "good matches": 205,
-            "inliers": 15,
-            "pixel_shift_x": -1030.429443359375,
-            "yaw_angle": 269.43491220474243,
+            "good_matches": 201,
+            "inliers": 27,
+            "yaw_angle": 82.25023033253717,
             "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
+        },
+        "1k3pxz5igerswuerzfqwxmtxd.jpg": {
+            "connected": true,
+            "good_matches": 149,
+            "inliers": 18,
+            "yaw_angle": 203.12614572279526,
+            "sweep": "1k3pxz5igerswuerzfqwxmtxd.jpg"
         },
         "fcd81es2iht9aexpk38fgurha.jpg": {
             "connected": true,
-            "good matches": 208,
-            "inliers": 37,
-            "pixel_shift_x": -363.880126953125,
-            "yaw_angle": 328.0183482170105,
+            "good_matches": 207,
+            "inliers": 57,
+            "yaw_angle": 359.55119268257795,
             "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
         }
     },
     "1k3pxz5igerswuerzfqwxmtxd.jpg": {
+        "x93uwspxnc5kkdfzusf3558xa.jpg": {
+            "connected": true,
+            "good_matches": 166,
+            "inliers": 24,
+            "yaw_angle": 260.9254708173636,
+            "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "y6dh1680nc129c7a317t8mgzb.jpg": {
+            "connected": true,
+            "good_matches": 167,
+            "inliers": 16,
+            "yaw_angle": 357.0260817645237,
+            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+        },
+        "h3namb1h86m4ki5x5wds88fdd.jpg": {
+            "connected": true,
+            "good_matches": 135,
+            "inliers": 15,
+            "yaw_angle": 164.61027032572267,
+            "sweep": "h3namb1h86m4ki5x5wds88fdd.jpg"
+        },
         "s351keybpqykcr8w8ecnpd94a.jpg": {
             "connected": true,
-            "good matches": 226,
-            "inliers": 106,
-            "pixel_shift_x": -8.1656494140625,
-            "yaw_angle": 359.28231596946716,
+            "good_matches": 226,
+            "inliers": 86,
+            "yaw_angle": 1.5188106924872835,
             "sweep": "s351keybpqykcr8w8ecnpd94a.jpg"
+        },
+        "tymru13ciuwcspp56rkkdykgb.jpg": {
+            "connected": true,
+            "good_matches": 165,
+            "inliers": 24,
+            "yaw_angle": 251.27547998107605,
+            "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
         },
         "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
             "connected": true,
-            "good matches": 153,
+            "good_matches": 149,
             "inliers": 16,
-            "pixel_shift_x": -2295.538818359375,
-            "yaw_angle": 158.24365854263306,
+            "yaw_angle": 325.47751337993503,
             "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
+        },
+        "kczwdranz1g5meippbbnc250b.jpg": {
+            "connected": true,
+            "good_matches": 153,
+            "inliers": 19,
+            "yaw_angle": 332.47494473853305,
+            "sweep": "kczwdranz1g5meippbbnc250b.jpg"
         },
         "yb8bpc2x8xtwstr860uutdksd.jpg": {
             "connected": true,
-            "good matches": 195,
-            "inliers": 44,
-            "pixel_shift_x": 12.57568359375,
-            "yaw_angle": 1.1052846908569336,
+            "good_matches": 194,
+            "inliers": 34,
+            "yaw_angle": 353.1559898393506,
             "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
         },
         "fcd81es2iht9aexpk38fgurha.jpg": {
             "connected": true,
-            "good matches": 182,
-            "inliers": 33,
-            "pixel_shift_x": -9.073974609375,
-            "yaw_angle": 359.2024827003479,
+            "good_matches": 182,
+            "inliers": 26,
+            "yaw_angle": 1.1151109705730822,
             "sweep": "fcd81es2iht9aexpk38fgurha.jpg"
         }
     },
     "fcd81es2iht9aexpk38fgurha.jpg": {
         "x93uwspxnc5kkdfzusf3558xa.jpg": {
             "connected": true,
-            "good matches": 152,
-            "inliers": 25,
-            "pixel_shift_x": 10.499267578125,
-            "yaw_angle": 0.9227871894836426,
+            "good_matches": 152,
+            "inliers": 51,
+            "yaw_angle": 359.8419059933644,
             "sweep": "x93uwspxnc5kkdfzusf3558xa.jpg"
+        },
+        "y6dh1680nc129c7a317t8mgzb.jpg": {
+            "connected": true,
+            "good_matches": 108,
+            "inliers": 18,
+            "yaw_angle": 321.0138066006086,
+            "sweep": "y6dh1680nc129c7a317t8mgzb.jpg"
+        },
+        "h3namb1h86m4ki5x5wds88fdd.jpg": {
+            "connected": true,
+            "good_matches": 126,
+            "inliers": 34,
+            "yaw_angle": 7.564530892420093,
+            "sweep": "h3namb1h86m4ki5x5wds88fdd.jpg"
         },
         "s351keybpqykcr8w8ecnpd94a.jpg": {
             "connected": true,
-            "good matches": 111,
-            "inliers": 22,
-            "pixel_shift_x": 0.817138671875,
-            "yaw_angle": 0.07181882858276367,
+            "good_matches": 110,
+            "inliers": 28,
+            "yaw_angle": 0.06994419856774867,
             "sweep": "s351keybpqykcr8w8ecnpd94a.jpg"
         },
         "tymru13ciuwcspp56rkkdykgb.jpg": {
             "connected": true,
-            "good matches": 123,
-            "inliers": 27,
-            "pixel_shift_x": 525.01611328125,
-            "yaw_angle": 46.14399433135986,
+            "good_matches": 122,
+            "inliers": 54,
+            "yaw_angle": 0.12092073875511505,
             "sweep": "tymru13ciuwcspp56rkkdykgb.jpg"
+        },
+        "5qhk923gxfg68i8rnhd5hkh1b.jpg": {
+            "connected": true,
+            "good_matches": 126,
+            "inliers": 33,
+            "yaw_angle": 359.9933163565591,
+            "sweep": "5qhk923gxfg68i8rnhd5hkh1b.jpg"
+        },
+        "kczwdranz1g5meippbbnc250b.jpg": {
+            "connected": true,
+            "good_matches": 155,
+            "inliers": 30,
+            "yaw_angle": 11.646013478688255,
+            "sweep": "kczwdranz1g5meippbbnc250b.jpg"
+        },
+        "yb8bpc2x8xtwstr860uutdksd.jpg": {
+            "connected": true,
+            "good_matches": 106,
+            "inliers": 19,
+            "yaw_angle": 350.67953140666606,
+            "sweep": "yb8bpc2x8xtwstr860uutdksd.jpg"
         },
         "7w9s4rke5qu9uq8zk03xsueec.jpg": {
             "connected": true,
-            "good matches": 168,
-            "inliers": 23,
-            "pixel_shift_x": 362.9072265625,
-            "yaw_angle": 31.896142959594727,
+            "good_matches": 168,
+            "inliers": 48,
+            "yaw_angle": 359.99892850753497,
             "sweep": "7w9s4rke5qu9uq8zk03xsueec.jpg"
         },
         "1k3pxz5igerswuerzfqwxmtxd.jpg": {
             "connected": true,
-            "good matches": 140,
-            "inliers": 25,
-            "pixel_shift_x": 2957.94189453125,
-            "yaw_angle": 259.97536182403564,
+            "good_matches": 138,
+            "inliers": 23,
+            "yaw_angle": 38.94685437526447,
             "sweep": "1k3pxz5igerswuerzfqwxmtxd.jpg"
         }
     }

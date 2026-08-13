@@ -7,108 +7,154 @@ import json
 import sys
 
 
-def check_equirectangular_connection(img1_path, img2_path, match_ratio=0.75, min_inliers=15):
-    """
-    Checks if two equirectangular photos overlap/connect horizontally
-    and calculates their relative yaw angle shift.
+def pixel_to_spherical(pts, width, height):
+    """Converts equirectangular (x, y) pixel coordinates to 3D unit vectors on a sphere."""
+    x = pts[:, 0]
+    y = pts[:, 1]
+
+    # Map longitude (phi) to [-pi, pi] and latitude (theta) to [-pi/2, pi/2]
+    phi = (x / width - 0.5) * (2 * np.pi)
+    theta = (0.5 - y / height) * np.pi
+
+    # Convert spherical coordinates to 3D Cartesian coordinates (Unit Sphere)
+    X = np.cos(theta) * np.sin(phi)
+    Y = -np.sin(theta)
+    Z = np.cos(theta) * np.cos(phi)
+
+    return np.column_stack((X, Y, Z))
+
+
+def check_equirectangular_connection_spherical(
+    img1_path, img2_path, match_ratio=0.75, min_inliers=15
+):
+    """Checks overlap and calculates relative pose (Rotation/Yaw) between two 360 panoramas
+
+    using spherical unit-vector mapping and the Essential Matrix.
     """
     # 1. Load images
     img1 = cv2.imread(img1_path)
     img2 = cv2.imread(img2_path)
 
-   
-    
     if img1 is None or img2 is None:
         raise FileNotFoundError("Could not load one or both image files.")
 
     h1, w1 = img1.shape[:2]
     h2, w2 = img2.shape[:2]
 
-    # Convert to grayscale
+    # 2. Extract SIFT features
     gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
     gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 
-    # 2. Detect SIFT features and descriptors
     sift = cv2.SIFT_create()
     kp1, des1 = sift.detectAndCompute(gray1, None)
     kp2, des2 = sift.detectAndCompute(gray2, None)
 
     if des1 is None or des2 is None:
-        print("Could not extract feature points.")
-        return {"connected": False, "yaw_angle": None}
+        return {
+            "connected": False,
+            "reason": "Could not extract feature points.",
+        }
 
     # 3. Match features using FLANN Matcher
-    index_params = dict(algorithm=1, trees=5) # KDTREE
+    index_params = dict(algorithm=1, trees=5)
     search_params = dict(checks=50)
     flann = cv2.FlannBasedMatcher(index_params, search_params)
     matches = flann.knnMatch(des1, des2, k=2)
 
-    # Apply Lowe's Ratio Test
+    # Lowe's ratio test + Ignore extreme polar regions (top/bottom 15% where distortion is severe)
     good_matches = []
     for m, n in matches:
         if m.distance < match_ratio * n.distance:
-            good_matches.append(m)
+            pt1 = kp1[m.queryIdx].pt
+            pt2 = kp2[m.trainIdx].pt
 
-    # print(f"Total Good Feature Matches: {len(good_matches)}")
+            if (
+                0.15 * h1 < pt1[1] < 0.85 * h1
+                and 0.15 * h2 < pt2[1] < 0.85 * h2
+            ):
+                good_matches.append(m)
 
     if len(good_matches) < min_inliers:
-        # print("Status: NOT Connected (Insufficient matching features)")
+        return {
+            "connected": False,
+            "good_matches": len(good_matches),
+            "reason": "NOT Connected (Insufficient feature matches)",
+        }
 
-        
-        return {"connected": False, "yaw_angle": None,reason :"NOT Connected (Insufficient matching features"}
+    # 4. Convert matching points to 3D Spherical Vectors
+    pts1_2d = np.float32([kp1[m.queryIdx].pt for m in good_matches])
+    pts2_2d = np.float32([kp2[m.trainIdx].pt for m in good_matches])
 
-    # 4. Extract pixel coordinates of matching points
-    pts1 = np.float32([kp1[m.queryIdx].pt for m in good_matches])
-    pts2 = np.float32([kp2[m.trainIdx].pt for m in good_matches])
+    v1 = pixel_to_spherical(pts1_2d, w1, h1)
+    v2 = pixel_to_spherical(pts2_2d, w2, h2)
 
-    # Calculate horizontal pixel differences (dx = x1 - x2)
-    # Accounting for horizontal wrap-around if necessary
-    dx_list = pts1[:, 0] - pts2[:, 0]
-    dy_list = pts1[:, 1] - pts2[:, 1]
+    # 5. Estimate Essential Matrix using RANSAC on 3D ray pairs
+    # Focal length f=1.0 and principal point (0,0) because input is normalized 3D directions
+    focal = 1.0
+    pp = (0.0, 0.0)
 
-    # Filter out matches that don't share a consistent horizontal displacement (RANSAC filtering)
-    # Pitch (y) should remain relatively stable for equirectangular horizontal shifts
-    valid_mask = np.abs(dy_list - np.median(dy_list)) < 10.0
-    valid_dx = dx_list[valid_mask]
+    # Project 3D vectors into normalized image plane (z=1) for OpenCV's findEssentialMat API
+    pts1_norm = v1[:, :2] / v1[:, 2:]
+    pts2_norm = v2[:, :2] / v2[:, 2:]
 
-    if len(valid_dx) < min_inliers:
-        # print("Status: NOT Connected (Matches lack consistent horizontal alignment)")
-        return {"connected": False, "yaw_angle": None ,"reason" : "NOT Connected (Matches lack consistent horizontal alignment"}
+    E, inlier_mask = cv2.findEssentialMat(
+        pts1_norm,
+        pts2_norm,
+        focal=focal,
+        pp=pp,
+        method=cv2.RANSAC,
+        prob=0.99,
+        threshold=0.005,  # Angular distance threshold in radians
+    )
 
-    # Median horizontal pixel shift (dx)
-    median_dx = float(np.median(valid_dx))
+    if E is None or inlier_mask is None:
+        return {
+            "connected": False,
+            "good_matches": len(good_matches),
+            "reason": "NOT Connected (Failed to estimate geometrically valid transformation)",
+        }
 
-    # 5. Calculate Relative Yaw Angle
-    # Assumes full-frame 360° panoramas sharing the same width
-    yaw_angle = (median_dx / w1) * 360.0
-    
-    # Normalize yaw angle to [-180°, 180°]
-    yaw_angle = (yaw_angle + 180) % 360 - 180
+    num_inliers = int(np.sum(inlier_mask))
 
-    # print("Status: CONNECTED")
-    # print(f"Inlier Matches: {len(valid_dx)}")
-    # print(f"Horizontal Shift (dx): {median_dx:.2f} px")
-    # print(f"Relative Yaw Angle: {yaw_angle:.2f}°")
+    if num_inliers < min_inliers:
+        return {
+            "connected": False,
+            "good_matches": len(good_matches),
+            "inliers": num_inliers,
+            "reason": "NOT Connected (Matches fail 3D epipolar consistency)",
+        }
 
-    if (yaw_angle < 0):
-        yaw_angle += 360
+    # 6. Recover Pose (Rotation matrix R and Translation unit vector t)
+    _, R, t, _ = cv2.recoverPose(
+        E, pts1_norm, pts2_norm, focal=focal, pp=pp, mask=inlier_mask
+    )
+
+    # 7. Extract Yaw angle (rotation around vertical Y-axis)
+    # Yaw angle in radians: atan2(R[0, 2], R[2, 2])
+    yaw_rad = np.arctan2(R[0, 2], R[2, 2])
+    yaw_deg = np.degrees(yaw_rad)
+
+    # Normalize yaw to range [0, 360)
+    yaw_deg = yaw_deg % 360.0
+
+    # return {
+    #     "connected": True,
+    #     "good_matches": len(good_matches),
+    #     "inliers": num_inliers,
+    #     "yaw_angle_deg": yaw_deg,
+    #     "rotation_matrix": R,
+    #     "translation_dir": t.ravel(),
+    # }
+
 
 
     return {
         "connected": True,
-        "good matches" : len(good_matches),
-        "inliers": len(valid_dx),
-        "pixel_shift_x": median_dx,
-        "yaw_angle": yaw_angle,
-
-
+        "good_matches": len(good_matches),
+        "inliers": num_inliers,
+        "yaw_angle": yaw_deg
 
     }
-
-
-
-
-
 
 
 
@@ -141,6 +187,8 @@ counter = 0;
 
 
 
+# samplesweep = ["9ztg61dxmttpx5ekm2860ssqa.jpg"];
+
 
 for sourcesweep in sweeps:
 
@@ -168,7 +216,7 @@ for sourcesweep in sweeps:
 
 
 
-            result = check_equirectangular_connection(sourcesweeppath,targetsweeppath)
+            result = check_equirectangular_connection_spherical(sourcesweeppath,targetsweeppath)
             print(file_path.name)
             print(result)
 
