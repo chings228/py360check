@@ -59,7 +59,7 @@ def equirectangular_to_perspective(img, fov=90, theta=0, phi=0, out_hw=(512,512)
 # Example usage
 
 folder = 'scene1'
-filename = "fcd81es2iht9aexpk38fgurha"
+filename = "s351keybpqykcr8w8ecnpd94a"
 angle =45
 
 

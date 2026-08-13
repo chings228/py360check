@@ -72,4 +72,26 @@ def are_same_fov(img_path1, img_path2, tolerance=0.05):
     return is_same
 
 # --- Example Usage ---
-are_same_fov('fov/a.png', 'fov/d.png')
+# are_same_fov('fov/a.png', 'fov/d.png')
+
+
+names = ["fcd81es2iht9aexpk38fgurha","s351keybpqykcr8w8ecnpd94a"];
+
+folder = "plain"
+
+
+photo = f"{folder}/{names[0]}-90.jpg"
+
+print("ooo"+photo)
+
+for angle in range(0,360,45):
+
+    cphoto = f"{folder}/{names[1]}-{angle}.jpg"
+    print("ppppp"+cphoto)
+
+    are_same_fov(photo,cphoto)
+
+    print("\n\n")
+
+
+
