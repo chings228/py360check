@@ -3,7 +3,7 @@
 
 import { Viewer } from '@photo-sphere-viewer/core';
 
-
+import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
 
 
 
