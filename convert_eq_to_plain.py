@@ -59,13 +59,13 @@ def equirectangular_to_perspective(img, fov=90, theta=0, phi=0, out_hw=(512,512)
 # Example usage
 
 folder = 'scene1'
-filename = "s351keybpqykcr8w8ecnpd94a"
+filename = "tymru13ciuwcspp56rkkdykgb"
 angle =45
 
 
-for angle in range(0,360,45):
+for angle in range(0,360,90):
 
-    exportfilename = f"plain/{filename}-{angle}.jpg"
+    exportfilename = f"plain2/{filename}-{angle}.jpg"
 
     img = cv2.imread(f"{folder}/{filename}.jpg")
 
