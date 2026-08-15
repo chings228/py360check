@@ -19,7 +19,7 @@ def calculate_feature_scale(img_path1, img_path2):
     kp2, des2 = sift.detectAndCompute(img2, None)
 
     if des1 is None or des2 is None:
-        print("No features detected in one or both images.")
+        # print("No features detected in one or both images.")
         return None
 
     # 3. Match descriptors using FLANN matcher
@@ -31,10 +31,10 @@ def calculate_feature_scale(img_path1, img_path2):
     # 4. Filter matches using Lowe's Ratio Test
     good_matches = [m for m, n in matches if m.distance < 0.7 * n.distance]
 
-    print(f"Found {len(good_matches)} strong feature matches.")
+    # print(f"Found {len(good_matches)} strong feature matches.")
 
     if len(good_matches) < 10:
-        print("Not enough visual matches to determine FOV overlap.")
+        # print("Not enough visual matches to determine FOV overlap.")
         return None
 
     # 5. Extract matching point coordinates
@@ -45,7 +45,7 @@ def calculate_feature_scale(img_path1, img_path2):
     matrix, inliers = cv2.estimateAffinePartial2D(src_pts, dst_pts)
 
     if matrix is None:
-        print("Failed to compute transformation matrix.")
+        # print("Failed to compute transformation matrix.")
         return None
 
     # Extract horizontal/vertical scale components
@@ -57,19 +57,19 @@ def are_same_fov(img_path1, img_path2, tolerance=0.05):
     scale = calculate_feature_scale(img_path1, img_path2)
     
     if scale is None:
-        return False
+        return False,None
 
-    print(f"Detected Relative Scale Factor: {scale:.3f}")
+    # print(f"Detected Relative Scale Factor: {scale:.3f}")
 
     # Scale near 1.0 means same FOV
     is_same = (1 - tolerance) <= scale <= (1 + tolerance)
     
-    if is_same:
-        print("Result: Both photos have the SAME Field of View.")
-    else:
-        print(f"Result: Different FOVs (Image 2 is ~{scale:.2f}x scaled relative to Image 1).")
+    # if is_same:
+    #     print("Result: Both photos have the SAME Field of View.")
+    # else:
+    #     print(f"Result: Different FOVs (Image 2 is ~{scale:.2f}x scaled relative to Image 1).")
         
-    return is_same
+    return is_same,scale
 
 # --- Example Usage ---
 # are_same_fov('fov/a.png', 'fov/d.png')
@@ -84,16 +84,23 @@ for angle in range(0,360,90) :
 
     photo = f"{folder}/{names[0]}-{angle}.jpg"
 
-    print("ooo"+photo)
+
 
     for angle in range(0,360,90):
 
         cphoto = f"{folder}/{names[1]}-{angle}.jpg"
-        print("ppppp "+cphoto+" "+photo)
 
-        are_same_fov(photo,cphoto)
 
-        print("\n\n")
+        is_same,scale = are_same_fov(photo,cphoto)
+
+        print(is_same)
+
+        if (scale > 0) :
+
+            print("ppppp "+cphoto+" "+photo)
+            print(f"scale {scale}")
+
+            print("\n\n")
 
 
 
