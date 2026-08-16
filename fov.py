@@ -98,9 +98,12 @@ def are_same_fov(img_path1, img_path2, tolerance=0.05):
 
 
 
-path = "plain2"
+path = "scene1"
+
+plainfolder = "plain2"
 
 folder_path = Path(path)
+counter = 0;
 
 
 for file_path in folder_path.iterdir():
@@ -113,33 +116,41 @@ for file_path in folder_path.iterdir():
     for angle in range(0,360,90) :
 
 
-        photo = f"{path}/{filename}-{angle}.jpg"
+        photo = f"{plainfolder}/{filename}-{angle}.jpg"
 
 
             
-        for file_path in folder_path.iterdir():
+        for cfile_path in folder_path.iterdir():
+
+            cfilename = cfile_path.stem
 
 
             for angle in range(0,360,90):
 
-                cphoto = f"{path}/{names[1]}-{angle}.jpg"
+             
+
+                cphoto = f"{plainfolder}/{cfilename}-{angle}.jpg"
 
                 tolerence= 0.1 #default 0.05
 
-                print(f"{photo} {cphoto}")
+                if (cphoto != photo) :
+
+                    print(f"{counter} {photo} {cphoto}")
+
+                    counter += 1
 
 
-                # result = are_same_fov(photo,cphoto,tolerence)
+                    # result = are_same_fov(photo,cphoto,tolerence)
 
 
-                # if (result["isSame"]) :
+                    # if (result["isSame"]) :
 
-                #     print("\n")
+                    #     print("\n")
 
-                #     print(f"{photo} {cphoto}")
-                #     print(result)
+                    #     print(f"{photo} {cphoto}")
+                    #     print(result)
 
-                #     print("\n\n")
+                    #     print("\n\n")
 
 
 
