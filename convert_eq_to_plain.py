@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+from pathlib import Path
 
 def equirectangular_to_perspective(img, fov=90, theta=0, phi=0, out_hw=(512,512)):
     """
@@ -59,19 +60,31 @@ def equirectangular_to_perspective(img, fov=90, theta=0, phi=0, out_hw=(512,512)
 # Example usage
 
 folder = 'scene1'
-filename = "tymru13ciuwcspp56rkkdykgb"
-angle =45
+# filename = "tymru13ciuwcspp56rkkdykgb"
+# angle =45
 
 
-for angle in range(0,360,90):
+path = 'scene1'
 
-    exportfilename = f"plain2/{filename}-{angle}.jpg"
-
-    img = cv2.imread(f"{folder}/{filename}.jpg")
+folder_path = Path(path)
 
 
-    persp = equirectangular_to_perspective(img, fov=90, theta=angle, phi=0, out_hw=(512,512))
+for file_path in folder_path.iterdir():
 
 
-    cv2.imwrite(exportfilename, persp)
+    filename = file_path.stem
+
+
+
+    for angle in range(0,360,90):
+
+        exportfilename = f"plain2/{filename}-{angle}.jpg"
+
+        img = cv2.imread(f"{folder}/{filename}.jpg")
+
+
+        persp = equirectangular_to_perspective(img, fov=90, theta=angle, phi=0, out_hw=(512,512))
+
+
+        cv2.imwrite(exportfilename, persp)
 

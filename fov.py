@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+from pathlib import Path
 
 def calculate_feature_scale(img_path1, img_path2):
     """
@@ -55,52 +56,90 @@ def calculate_feature_scale(img_path1, img_path2):
 
 def are_same_fov(img_path1, img_path2, tolerance=0.05):
     scale = calculate_feature_scale(img_path1, img_path2)
+
+    # print("are same fov ",scale)
+
+
+    result = {}
+
+    # print(f"Scale {scale}")
+
     
     if scale is None:
-        return False,None
+        result["isSame"] = False
 
-    # print(f"Detected Relative Scale Factor: {scale:.3f}")
+    else:
 
-    # Scale near 1.0 means same FOV
-    is_same = (1 - tolerance) <= scale <= (1 + tolerance)
-    
-    # if is_same:
-    #     print("Result: Both photos have the SAME Field of View.")
-    # else:
-    #     print(f"Result: Different FOVs (Image 2 is ~{scale:.2f}x scaled relative to Image 1).")
+        # print(f"Detected Relative Scale Factor: {scale:.3f}")
+
+        # Scale near 1.0 means same FOV
+        result["isSame"] = True
+        result['isTolerancePass'] = bool((1 - tolerance) <= scale <= (1 + tolerance))
+
+        # if (result['isTolerancePass']) :
+        #     print("toreee")
+        # else :
+        #     print("tor fail")
+
+        result['scaleStr'] =  f"~{scale:.2f}x"
+        result['scale'] = float(scale)
         
-    return is_same,scale
+        # if is_same:
+        #     print("Result: Both photos have the SAME Field of View.")
+        # else:
+        #     print(f"Result: Different FOVs (Image 2 is ~{scale:.2f}x scaled relative to Image 1).")
+        
+    # return is_same,scale
+    return result
 
 # --- Example Usage ---
 # are_same_fov('fov/a.png', 'fov/d.png')
 
 
-names = ["fcd81es2iht9aexpk38fgurha","tymru13ciuwcspp56rkkdykgb"];
-
-folder = "plain2"
-
-for angle in range(0,360,90) :
 
 
-    photo = f"{folder}/{names[0]}-{angle}.jpg"
+path = "plain2"
+
+folder_path = Path(path)
+
+
+for file_path in folder_path.iterdir():
+
+
+    filename = file_path.stem
 
 
 
-    for angle in range(0,360,90):
-
-        cphoto = f"{folder}/{names[1]}-{angle}.jpg"
+    for angle in range(0,360,90) :
 
 
-        is_same,scale = are_same_fov(photo,cphoto)
+        photo = f"{path}/{filename}-{angle}.jpg"
 
-        print(is_same)
 
-        if (scale > 0) :
+            
+        for file_path in folder_path.iterdir():
 
-            print("ppppp "+cphoto+" "+photo)
-            print(f"scale {scale}")
 
-            print("\n\n")
+            for angle in range(0,360,90):
+
+                cphoto = f"{path}/{names[1]}-{angle}.jpg"
+
+                tolerence= 0.1 #default 0.05
+
+                print(f"{photo} {cphoto}")
+
+
+                # result = are_same_fov(photo,cphoto,tolerence)
+
+
+                # if (result["isSame"]) :
+
+                #     print("\n")
+
+                #     print(f"{photo} {cphoto}")
+                #     print(result)
+
+                #     print("\n\n")
 
 
 
