@@ -13,6 +13,7 @@ $(function(){
 
 
     console.log("xxxxxhaha")
+    
 
     new splitcore()
 

@@ -1,0 +1,1290 @@
+plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.67x', 'scale': 0.6712082927250184}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.58x', 'scale': 0.5765360367169449}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.61x', 'scale': 0.6085808504022879}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.70x', 'scale': 1.6975965001286895}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg plain2/yb8bpc2x8xtwstr860uutdksd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.4955315235092553e-19}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.49x', 'scale': 1.488781379156624}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.86x', 'scale': 0.8601446066123459}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.94x', 'scale': 0.9442746800340655}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.40x', 'scale': 1.403878476828419}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.02x', 'scale': 0.023019496059563695}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.22x', 'scale': 0.21969774971677808}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.7980055243544177e-19}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.20x', 'scale': 1.1977779828771449}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.03x', 'scale': 0.034254388913714934}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.864995097892645e-20}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 4.765133849841624e-19}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.7311672699270774e-18}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.5028650085803578e-19}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.22x', 'scale': 1.221041730410662}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.205462179098742e-18}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.773645607692367e-18}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.93497943345951e-19}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.0505253835491932e-18}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.10x', 'scale': 1.0984514003515702}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.01x', 'scale': 0.01284221163704706}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.08x', 'scale': 0.0789950330912485}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.957526737100367e-19}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.44x', 'scale': 0.43796343621457245}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.04x', 'scale': 0.04179632613478664}
+
+plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.86x', 'scale': 1.8616247790911933}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg plain2/yb8bpc2x8xtwstr860uutdksd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.16x', 'scale': 0.1621160115145775}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.32x', 'scale': 0.3214899368558741}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.95x', 'scale': 0.9510651352159948}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~2.37x', 'scale': 2.365031149330815}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.35x', 'scale': 1.347523891495768}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.70x', 'scale': 1.6998479232552948}
+
+plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/y6dh1680nc129c7a317t8mgzb-0.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/y6dh1680nc129c7a317t8mgzb-0.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/y6dh1680nc129c7a317t8mgzb-0.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 9.530866858978584e-20}
+
+plain2/y6dh1680nc129c7a317t8mgzb-0.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 8.014904087692031e-20}
+
+plain2/y6dh1680nc129c7a317t8mgzb-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/y6dh1680nc129c7a317t8mgzb-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.422831547976245e-18}
+
+plain2/y6dh1680nc129c7a317t8mgzb-0.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.2299539573032162e-19}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.2299539573032162e-19}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.29x', 'scale': 1.2877559152294282}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.82x', 'scale': 1.8201045796699509}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.33x', 'scale': 1.3282613758808024}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.17x', 'scale': 1.172499230025327}
+
+plain2/y6dh1680nc129c7a317t8mgzb-90.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.38x', 'scale': 1.3828920669459015}
+
+plain2/y6dh1680nc129c7a317t8mgzb-270.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.05x', 'scale': 0.05119024037775923}
+
+plain2/y6dh1680nc129c7a317t8mgzb-270.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.239495642012651e-20}
+
+plain2/y6dh1680nc129c7a317t8mgzb-270.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~15.13x', 'scale': 15.129349027964972}
+
+plain2/y6dh1680nc129c7a317t8mgzb-270.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.2869226832572795e-20}
+
+plain2/y6dh1680nc129c7a317t8mgzb-270.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.75x', 'scale': 0.7510683154626255}
+
+plain2/y6dh1680nc129c7a317t8mgzb-270.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.50x', 'scale': 0.5008193562611014}
+
+plain2/y6dh1680nc129c7a317t8mgzb-270.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.54x', 'scale': 0.5367352955122182}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.1082134279565652e-19}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.29x', 'scale': 0.2896299790428152}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.70828676720911e-18}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.259228866113333e-19}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~2.22x', 'scale': 2.215826382089732}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.54x', 'scale': 0.5369476654705536}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.71x', 'scale': 0.7059172844798778}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/s351keybpqykcr8w8ecnpd94a-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.364599449948222e-19}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 8.544097735672181e-20}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 9.689062710563885e-20}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.541664239082e-19}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.9648834458914526e-19}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.768921370210314e-20}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.432894128914417e-20}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.47x', 'scale': 0.4679946394289976}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~4.11x', 'scale': 4.114676679433717}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.1973096836920947e-19}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.640844855698952e-19}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.2156905697870277e-20}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.8503958495237766e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.17x', 'scale': 0.1685203378898509}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.01x', 'scale': 0.013301779417146962}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.84804461040642e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/s351keybpqykcr8w8ecnpd94a-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.788668883247152e-18}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/s351keybpqykcr8w8ecnpd94a-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.99x', 'scale': 0.9905846474525067}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/tymru13ciuwcspp56rkkdykgb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.492330789963027e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.975064373138155e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.0007685987642189e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.55x', 'scale': 0.5487291586463452}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.168618358304205e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.730061801883659e-18}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.492812731367803e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.093553240794823e-18}
+
+plain2/s351keybpqykcr8w8ecnpd94a-0.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 9.41423935538504e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.54x', 'scale': 0.5351779534295529}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.093792562003185e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.21x', 'scale': 0.20565448642034734}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.4799989053921886e-21}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.902692947649242e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.499641016691421e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 9.264665564519933e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.600454449025684e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.632288173607422e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.03x', 'scale': 0.029684374380168826}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.5401227348537347e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.4332108464917147e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.09x', 'scale': 0.08564413817760068}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.188816477225598e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.9038739752802027e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.30x', 'scale': 0.2992991436641202}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.02x', 'scale': 0.01593852219764679}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 4.006718439863775e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.058222542546048e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.54x', 'scale': 0.5400690265040751}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.267194027198524e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.05x', 'scale': 0.04729434732927239}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.929987567731734e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.543863195840842e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.1071307380580135e-18}
+
+plain2/s351keybpqykcr8w8ecnpd94a-90.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 8.768061491246746e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/y6dh1680nc129c7a317t8mgzb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.56x', 'scale': 0.5588087313602155}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.25x', 'scale': 0.25013962526434413}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.75x', 'scale': 0.750710882909008}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/s351keybpqykcr8w8ecnpd94a-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.388952994682468e-21}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.649435021389864e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.2061518215473136e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/kczwdranz1g5meippbbnc250b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.7284406799189942e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.922438813957111e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.8759661557133856e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.5584386606179214e-19}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.041755498481822e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.510136716468863e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.20x', 'scale': 0.19898485112082812}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.78x', 'scale': 0.7820543782727287}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.667198699016956e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.53x', 'scale': 0.5313836128156839}
+
+plain2/s351keybpqykcr8w8ecnpd94a-180.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.7001714331338663e-20}
+
+plain2/s351keybpqykcr8w8ecnpd94a-270.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~2.39x', 'scale': 2.393469492681625}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.732005838427693e-20}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.524306083547752e-19}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.15x', 'scale': 0.15202462775000686}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.334159198868731e-19}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.28x', 'scale': 1.276002271803171}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.0940477856718144e-19}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.221723531611483e-19}
+
+plain2/tymru13ciuwcspp56rkkdykgb-0.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.285462151575955e-19}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.26x', 'scale': 0.26473649265570537}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.78x', 'scale': 0.7773116330605262}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.69x', 'scale': 0.689573337972487}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.787624396799449e-20}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.41x', 'scale': 1.4066438247001205}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.57x', 'scale': 0.5659397217079997}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.048732589767905e-19}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.178274017720157e-18}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.02x', 'scale': 1.020275728471926}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.07x', 'scale': 0.06859833623762815}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.63x', 'scale': 1.6288470785031088}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.967016566952069e-19}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.09x', 'scale': 1.088623743677016}
+
+plain2/tymru13ciuwcspp56rkkdykgb-90.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/tymru13ciuwcspp56rkkdykgb-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.28x', 'scale': 0.28086336730002}
+
+plain2/tymru13ciuwcspp56rkkdykgb-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.99x', 'scale': 0.9915257286023245}
+
+plain2/tymru13ciuwcspp56rkkdykgb-180.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.54x', 'scale': 1.535503537317012}
+
+plain2/tymru13ciuwcspp56rkkdykgb-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.126780474934943e-18}
+
+plain2/tymru13ciuwcspp56rkkdykgb-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.48x', 'scale': 1.4800802589678226}
+
+plain2/tymru13ciuwcspp56rkkdykgb-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.80x', 'scale': 0.7968347290199576}
+
+plain2/tymru13ciuwcspp56rkkdykgb-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.44x', 'scale': 1.4372075731607183}
+
+plain2/tymru13ciuwcspp56rkkdykgb-180.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.55x', 'scale': 0.5511679153924776}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.605545429023628e-20}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.722090661244361e-19}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.55x', 'scale': 0.550004604480592}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.72x', 'scale': 0.7247533847190073}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.1692399772534877e-19}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.71x', 'scale': 0.7108538995558769}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.4243522126961003e-19}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.72x', 'scale': 0.7155808257462549}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.69x', 'scale': 0.6942388586777567}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.45x', 'scale': 0.4459037107875019}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.73x', 'scale': 0.7284122095832583}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.75x', 'scale': 0.7522921312988544}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.9768067004832561e-19}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.77x', 'scale': 0.7684387749624327}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.04x', 'scale': 0.03569161572682644}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.0956087918941576e-19}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.01x', 'scale': 1.0112564367720418}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.56x', 'scale': 1.5587819439681476}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.50x', 'scale': 1.498674240177156}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 8.798802118275673e-20}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.80x', 'scale': 0.8043454657046084}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~3.56x', 'scale': 3.5618055220175164}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.47x', 'scale': 0.4683353998961569}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.022591681943769e-19}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.332172877011494e-20}
+
+plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/kczwdranz1g5meippbbnc250b-0.jpg plain2/tymru13ciuwcspp56rkkdykgb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.19x', 'scale': 1.1945419095320258}
+
+plain2/kczwdranz1g5meippbbnc250b-0.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.2333022226349916e-19}
+
+plain2/kczwdranz1g5meippbbnc250b-0.jpg plain2/yb8bpc2x8xtwstr860uutdksd-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/kczwdranz1g5meippbbnc250b-0.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~2.04x', 'scale': 2.0448329803805585}
+
+plain2/kczwdranz1g5meippbbnc250b-0.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.22x', 'scale': 1.2182252956276118}
+
+plain2/kczwdranz1g5meippbbnc250b-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.08x', 'scale': 0.08219369354894307}
+
+plain2/kczwdranz1g5meippbbnc250b-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.65x', 'scale': 0.6540021534866581}
+
+plain2/kczwdranz1g5meippbbnc250b-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.97x', 'scale': 0.9703347262158839}
+
+plain2/kczwdranz1g5meippbbnc250b-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.51x', 'scale': 0.513628048224903}
+
+plain2/kczwdranz1g5meippbbnc250b-180.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-0.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-0.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.87x', 'scale': 1.8707797554038144}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-0.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.532833661463266e-18}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-0.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-0.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.90x', 'scale': 0.9004650519831197}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.90x', 'scale': 0.8957067625834164}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~3.74x', 'scale': 3.7389852031558632}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.83x', 'scale': 0.8313129706786009}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.48x', 'scale': 0.47773094636222585}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.5322702032486732e-19}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.68x', 'scale': 0.6755356552901305}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.66x', 'scale': 0.661403310384962}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.03x', 'scale': 1.0331376362577271}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.09x', 'scale': 1.0891330990455395}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.79x', 'scale': 0.7877735720962407}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.93x', 'scale': 0.9271006813535619}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.04x', 'scale': 1.042929649766865}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-0.jpg plain2/tymru13ciuwcspp56rkkdykgb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.66x', 'scale': 0.6634189089184483}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-0.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.28x', 'scale': 0.28180372489509775}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.75x', 'scale': 0.7532506246177662}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.95x', 'scale': 0.9547659825221583}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.170617761165645e-19}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.78x', 'scale': 0.7762453464101056}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.98x', 'scale': 0.9813996845149524}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.73x', 'scale': 0.727057382011395}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.90x', 'scale': 0.8956838888192575}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.37x', 'scale': 1.368316193465214}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.93x', 'scale': 0.9294710863173258}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.24x', 'scale': 1.23950415911134}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.609090307612923e-19}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.064822349625109e-19}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.06x', 'scale': 1.059912825653611}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.29x', 'scale': 1.291647932719549}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.06x', 'scale': 1.059063288390734}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~2.64x', 'scale': 2.635389520892518}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.52x', 'scale': 0.5208582154015495}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.39x', 'scale': 1.3880289008372466}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.25x', 'scale': 1.2461716590554235}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.24x', 'scale': 1.2379965293372401}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.91x', 'scale': 1.9121004571991234}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.85x', 'scale': 1.850796707451335}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.241581591270471e-19}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~2.71x', 'scale': 2.7088785395912147}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.2496002569740576e-18}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~3.09x', 'scale': 3.087302830445675}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.69x', 'scale': 0.6920955131067926}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 4.959941706731363e-20}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.80x', 'scale': 1.803746238276315}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.17x', 'scale': 0.17270944555391737}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.3652064418560985e-18}
+
+plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.02x', 'scale': 0.018786916629490946}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.582661380679798e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~2.66x', 'scale': 2.6569454243497117}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.0883607757437287e-21}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.9499404275188072e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.1186415706355653e-20}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 8.351181193880417e-21}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 6.395415009328836e-20}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.84x', 'scale': 0.8405406405891882}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.6969495492933827e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.09x', 'scale': 0.09300176964192619}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.89x', 'scale': 0.8881595460085351}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.44x', 'scale': 0.43630768649415913}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.860673051485293e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.13x', 'scale': 0.1339645309209257}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/kczwdranz1g5meippbbnc250b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.93x', 'scale': 0.9297913741807755}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.03x', 'scale': 0.03216441065110069}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.342736037712536e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.081435409241098e-20}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.8746583130633706e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 7.039504597793327e-18}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.173167358920849e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 3.2625776884168075e-20}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.03x', 'scale': 0.027467215655489746}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0018601785325828562}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.0675187295625351e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.388730466211762e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/s351keybpqykcr8w8ecnpd94a-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/s351keybpqykcr8w8ecnpd94a-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.9731282857612037e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 4.057160627032428e-20}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.0840896864103362e-17}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.79x', 'scale': 0.7917059557123384}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.1370384753568773e-20}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 5.157595012440413e-20}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/kczwdranz1g5meippbbnc250b-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/kczwdranz1g5meippbbnc250b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 4.096229345947064e-20}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.41x', 'scale': 1.4117142120155262}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 2.0495324266705466e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 4.714585518876898e-19}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/fcd81es2iht9aexpk38fgurha-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.15x', 'scale': 0.15335248075544225}
+
+plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/fcd81es2iht9aexpk38fgurha-0.jpg plain2/y6dh1680nc129c7a317t8mgzb-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/9ztg61dxmttpx5ekm2860ssqa-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.9553470282180596e-17}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.04x', 'scale': 0.036025358405242444}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.72x', 'scale': 0.7185633962270664}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.62x', 'scale': 0.623155965481885}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.59x', 'scale': 0.5872471502121744}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/s351keybpqykcr8w8ecnpd94a-270.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 9.22709777718267e-19}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.91x', 'scale': 0.9143302112119615}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.48x', 'scale': 0.47583971176803125}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/5qhk923gxfg68i8rnhd5hkh1b-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.30x', 'scale': 1.303026678123482}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/kczwdranz1g5meippbbnc250b-180.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~1.01x', 'scale': 1.010725965081725}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/yb8bpc2x8xtwstr860uutdksd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.41x', 'scale': 0.4082445960538748}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': True, 'scaleStr': '~0.94x', 'scale': 0.9435257364143756}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.34x', 'scale': 0.33920726519038724}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~2.04x', 'scale': 2.036288868419454}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/1k3pxz5igerswuerzfqwxmtxd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.51x', 'scale': 0.5104057857447396}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/fcd81es2iht9aexpk38fgurha-0.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.6153086564405419e-19}
+
+plain2/fcd81es2iht9aexpk38fgurha-90.jpg plain2/fcd81es2iht9aexpk38fgurha-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 0.0}
+
+plain2/fcd81es2iht9aexpk38fgurha-180.jpg plain2/x93uwspxnc5kkdfzusf3558xa-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.74x', 'scale': 0.7425476775526316}
+
+plain2/fcd81es2iht9aexpk38fgurha-180.jpg plain2/y6dh1680nc129c7a317t8mgzb-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.42x', 'scale': 0.41511702512972254}
+
+plain2/fcd81es2iht9aexpk38fgurha-180.jpg plain2/h3namb1h86m4ki5x5wds88fdd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~0.00x', 'scale': 1.737396182574631e-18}
+
+plain2/fcd81es2iht9aexpk38fgurha-180.jpg plain2/tymru13ciuwcspp56rkkdykgb-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.81x', 'scale': 1.8112406652078485}
+
+plain2/fcd81es2iht9aexpk38fgurha-180.jpg plain2/yb8bpc2x8xtwstr860uutdksd-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.19x', 'scale': 1.1913155399572988}
+
+plain2/fcd81es2iht9aexpk38fgurha-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-90.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.73x', 'scale': 1.7289291100475557}
+
+plain2/fcd81es2iht9aexpk38fgurha-180.jpg plain2/7w9s4rke5qu9uq8zk03xsueec-180.jpg 
+ {'isSame': True, 'isTolerancePass': False, 'scaleStr': '~1.45x', 'scale': 1.4526457221028992}
+

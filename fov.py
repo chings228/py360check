@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 from pathlib import Path
+import json
 
 def calculate_feature_scale(img_path1, img_path2):
     """
@@ -100,16 +101,21 @@ def are_same_fov(img_path1, img_path2, tolerance=0.05):
 
 path = "scene1"
 
-plainfolder = "plain2"
+plainfolder = "plain3"
 
 folder_path = Path(path)
 counter = 0;
 
+resultlist = []
 
-for file_path in folder_path.iterdir():
+dummylist = ["fcd81es2iht9aexpk38fgurha"]
 
 
-    filename = file_path.stem
+# for file_path in folder_path.iterdir():
+    #filename = file_path.stem
+
+for filename in dummylist :
+
 
 
 
@@ -125,32 +131,51 @@ for file_path in folder_path.iterdir():
             cfilename = cfile_path.stem
 
 
-            for angle in range(0,360,90):
+            for cangle in range(0,360,90):
 
              
 
-                cphoto = f"{plainfolder}/{cfilename}-{angle}.jpg"
+                cphoto = f"{plainfolder}/{cfilename}-{cangle}.jpg"
 
                 tolerence= 0.1 #default 0.05
 
                 if (cphoto != photo) :
 
-                    print(f"{counter} {photo} {cphoto}")
+                    # print(f"{counter} {photo} {cphoto}")
 
                     counter += 1
 
 
-                    # result = are_same_fov(photo,cphoto,tolerence)
+                    result = are_same_fov(photo,cphoto,tolerence)
 
 
-                    # if (result["isSame"]) :
+                    if (result["isSame"] and result['scale'] > 0.5) :
 
-                    #     print("\n")
+                        # print("\n")
 
-                    #     print(f"{photo} {cphoto}")
-                    #     print(result)
+                        print(f"{counter} {photo} {cphoto}")
+                        print(result)
 
-                    #     print("\n\n")
+                        text = f"{counter} {photo} {cphoto} \n {result}\n\n"
+
+                        fovresult = {}
+                        fovresult['fromfilePath'] = photo
+                        fovresult['tofilePath'] = cphoto
+                        fovresult['fromfilename'] = filename
+                        fovresult['tofilename'] = cfilename
+                        fovresult["isTolerancePass"] = result["isTolerancePass"]
+                        fovresult['scale'] = result['scale']
+                        fovresult['fromyaw'] = angle
+                        fovresult['toyaw'] = cangle
+
+
+                        resultlist.append(fovresult)
+
+                        print("\n")
 
 
 
+
+
+with open("fovresult.json", "w", encoding="utf-8") as file:
+    json.dump(resultlist, file, indent=4 ,ensure_ascii=False)

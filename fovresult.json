@@ -1,0 +1,222 @@
+[
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-0.jpg",
+        "tofilePath": "plain3/5qhk923gxfg68i8rnhd5hkh1b-0.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "5qhk923gxfg68i8rnhd5hkh1b",
+        "isTolerancePass": false,
+        "scale": 0.5229556414036157,
+        "fromyaw": 0,
+        "toyaw": 0
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-0.jpg",
+        "tofilePath": "plain3/7w9s4rke5qu9uq8zk03xsueec-0.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "7w9s4rke5qu9uq8zk03xsueec",
+        "isTolerancePass": false,
+        "scale": 0.6146751246324115,
+        "fromyaw": 0,
+        "toyaw": 0
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-0.jpg",
+        "tofilePath": "plain3/7w9s4rke5qu9uq8zk03xsueec-270.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "7w9s4rke5qu9uq8zk03xsueec",
+        "isTolerancePass": false,
+        "scale": 3.4319305584577537,
+        "fromyaw": 0,
+        "toyaw": 270
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-90.jpg",
+        "tofilePath": "plain3/9ztg61dxmttpx5ekm2860ssqa-180.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "9ztg61dxmttpx5ekm2860ssqa",
+        "isTolerancePass": true,
+        "scale": 0.9897935189740811,
+        "fromyaw": 90,
+        "toyaw": 180
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-90.jpg",
+        "tofilePath": "plain3/y6dh1680nc129c7a317t8mgzb-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "y6dh1680nc129c7a317t8mgzb",
+        "isTolerancePass": false,
+        "scale": 0.7156042446172614,
+        "fromyaw": 90,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-90.jpg",
+        "tofilePath": "plain3/h3namb1h86m4ki5x5wds88fdd-180.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "h3namb1h86m4ki5x5wds88fdd",
+        "isTolerancePass": false,
+        "scale": 0.5965750441812502,
+        "fromyaw": 90,
+        "toyaw": 180
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-90.jpg",
+        "tofilePath": "plain3/s351keybpqykcr8w8ecnpd94a-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "s351keybpqykcr8w8ecnpd94a",
+        "isTolerancePass": true,
+        "scale": 1.0295624342328344,
+        "fromyaw": 90,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-90.jpg",
+        "tofilePath": "plain3/tymru13ciuwcspp56rkkdykgb-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "tymru13ciuwcspp56rkkdykgb",
+        "isTolerancePass": true,
+        "scale": 0.9683661569555865,
+        "fromyaw": 90,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-90.jpg",
+        "tofilePath": "plain3/5qhk923gxfg68i8rnhd5hkh1b-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "5qhk923gxfg68i8rnhd5hkh1b",
+        "isTolerancePass": false,
+        "scale": 1.2879344215513997,
+        "fromyaw": 90,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-90.jpg",
+        "tofilePath": "plain3/7w9s4rke5qu9uq8zk03xsueec-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "7w9s4rke5qu9uq8zk03xsueec",
+        "isTolerancePass": true,
+        "scale": 0.9406421751294982,
+        "fromyaw": 90,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/x93uwspxnc5kkdfzusf3558xa-180.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "x93uwspxnc5kkdfzusf3558xa",
+        "isTolerancePass": false,
+        "scale": 0.7514434718133098,
+        "fromyaw": 180,
+        "toyaw": 180
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/y6dh1680nc129c7a317t8mgzb-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "y6dh1680nc129c7a317t8mgzb",
+        "isTolerancePass": true,
+        "scale": 1.041002112948275,
+        "fromyaw": 180,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/y6dh1680nc129c7a317t8mgzb-270.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "y6dh1680nc129c7a317t8mgzb",
+        "isTolerancePass": false,
+        "scale": 3.601157989003799,
+        "fromyaw": 180,
+        "toyaw": 270
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/s351keybpqykcr8w8ecnpd94a-270.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "s351keybpqykcr8w8ecnpd94a",
+        "isTolerancePass": false,
+        "scale": 0.6227811810210454,
+        "fromyaw": 180,
+        "toyaw": 270
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/tymru13ciuwcspp56rkkdykgb-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "tymru13ciuwcspp56rkkdykgb",
+        "isTolerancePass": false,
+        "scale": 7.592100564001397,
+        "fromyaw": 180,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/tymru13ciuwcspp56rkkdykgb-180.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "tymru13ciuwcspp56rkkdykgb",
+        "isTolerancePass": false,
+        "scale": 1.8091833289743418,
+        "fromyaw": 180,
+        "toyaw": 180
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/5qhk923gxfg68i8rnhd5hkh1b-180.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "5qhk923gxfg68i8rnhd5hkh1b",
+        "isTolerancePass": false,
+        "scale": 1.7824748403769597,
+        "fromyaw": 180,
+        "toyaw": 180
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/kczwdranz1g5meippbbnc250b-180.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "kczwdranz1g5meippbbnc250b",
+        "isTolerancePass": false,
+        "scale": 2.3414676055781114,
+        "fromyaw": 180,
+        "toyaw": 180
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/yb8bpc2x8xtwstr860uutdksd-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "yb8bpc2x8xtwstr860uutdksd",
+        "isTolerancePass": false,
+        "scale": 3.524520455127204,
+        "fromyaw": 180,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/yb8bpc2x8xtwstr860uutdksd-180.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "yb8bpc2x8xtwstr860uutdksd",
+        "isTolerancePass": false,
+        "scale": 2.686582052436089,
+        "fromyaw": 180,
+        "toyaw": 180
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/7w9s4rke5qu9uq8zk03xsueec-90.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "7w9s4rke5qu9uq8zk03xsueec",
+        "isTolerancePass": true,
+        "scale": 0.9186214084931709,
+        "fromyaw": 180,
+        "toyaw": 90
+    },
+    {
+        "fromfilePath": "plain3/fcd81es2iht9aexpk38fgurha-180.jpg",
+        "tofilePath": "plain3/7w9s4rke5qu9uq8zk03xsueec-180.jpg",
+        "fromfilename": "fcd81es2iht9aexpk38fgurha",
+        "tofilename": "7w9s4rke5qu9uq8zk03xsueec",
+        "isTolerancePass": false,
+        "scale": 1.4498217219644092,
+        "fromyaw": 180,
+        "toyaw": 180
+    }
+]

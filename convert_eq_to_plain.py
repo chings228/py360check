@@ -78,12 +78,12 @@ for file_path in folder_path.iterdir():
 
     for angle in range(0,360,90):
 
-        exportfilename = f"plain2/{filename}-{angle}.jpg"
+        exportfilename = f"plain3/{filename}-{angle}.jpg"
 
         img = cv2.imread(f"{folder}/{filename}.jpg")
 
 
-        persp = equirectangular_to_perspective(img, fov=90, theta=angle, phi=0, out_hw=(512,512))
+        persp = equirectangular_to_perspective(img, fov=90, theta=angle, phi=0, out_hw=(512,1024))
 
 
         cv2.imwrite(exportfilename, persp)

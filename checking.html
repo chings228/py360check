@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking sss</title>
+
+    <script src= "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <style>
+
+        img{
+            padding : 10px;
+        }
+
+    </style>
+
+<script>
+
+    let resultlist
+
+    $(function(){
+
+        console.log("start")
+        readJson()
+    })
+
+
+    function readJson(){
+
+        $.getJSON( "fovresult.json", data => {
+
+            console.log(data)
+            genUI(data)
+
+        });
+
+    }
+
+    function genUI(data){
+
+        let html = ''
+
+        data.forEach(item => {
+
+
+            const originalfolder = "scene1"
+
+            html += `
+
+                <br>
+                
+                    <div><a target=split href=splitview.html?source=${item.fromfilename}&sourceyaw=${item.fromyaw}&target=${item.tofilename}&targetyaw=${item.toyaw}>Photos</a> 
+                        
+                    ${item.fromfilename} ${item.fromyaw}  / ${item.tofilename} ${item.toyaw} isTol : ${item.isTolerancePass} Scale : ${item.scale}
+                    <div style='display:flex;flex-direction:row'>
+                    <img  src = '${item.fromfilePath}'><img src = '${item.tofilePath}'> 
+                    </div>
+                <br>
+
+            `
+            
+        });
+
+
+        $("body").append(html)
+
+    }
+
+
+
+
+</script>
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+
+
+    
+</body>
+</html>
