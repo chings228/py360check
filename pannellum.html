@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
+    <style>
+    #panorama {
+        width: 1024px;
+        height: 1024px;
+    }
+    </style>
+</head>
+<body>
+
+<div id="panorama"></div>
+<script>
+let viewer = pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "./pano4.jpg",
+    "yaw": 180,
+    "autoLoad": true,
+    "showControls" : false
+});
+
+viewer.addScene("scene2",{
+        "type": "equirectangular",
+        "panorama": "./scene1/x93uwspxnc5kkdfzusf3558xa.jpg"
+
+    })
+
+
+setTimeout(()=>{
+
+    console.log("timeout")
+
+
+
+
+
+    viewer.loadScene({
+       "sceneId" : "scene2",
+        "autoLoad" : true
+  
+
+    })
+
+
+},3000)
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
