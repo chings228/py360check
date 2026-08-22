@@ -149,7 +149,7 @@ for filename in dummylist :
                     result = are_same_fov(photo,cphoto,tolerence)
 
 
-                    if (result["isSame"] and (result['scale'] > 0.5 and result['scale'] <0.9) :
+                    if (result["isSame"] and (result['scale'] > 0.5 and result['scale'] <0.9)) :
 
                         # print("\n")
 
