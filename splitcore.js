@@ -1,7 +1,7 @@
 
 
 
-import { Viewer } from '@photo-sphere-viewer/core';
+import { Viewer,EquirectangularAdapter  } from '@photo-sphere-viewer/core';
 
 import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
 
@@ -196,25 +196,26 @@ export default class splitcore{
 
         console.log(`source yaw ${this.sourceyaw} ${this.degToRad(this.sourceyaw)}`)
 
-        const sourcepath = `scene1/${this.sourceId}`
-
 
         this.sourceviewer = new Viewer({
             container: document.querySelector('#sourceviewer'),
-            panorama: "scene1/fcd81es2iht9aexpk38fgurha.jpg",
-            defaultYaw : 3.0219181811138744,
-            defaultPitch : 5.020131058469743834,
+            panorama: `scene1/${this.sourceId}`,
             defaultZoomLvl : 0,
-            useXmp: false
+            defaultYaw : this.degToRad(this.sourceyaw),
+            adapter: [EquirectangularAdapter, {
+                useXmpData: false // Disables reading GPano XMP orientation metadata
+            }],
+            navbar : false
         });
-
-        console.log(this.sourceviewer)
 
         this.targetviewer = new Viewer({
             container: document.querySelector('#targetviewer'),
             panorama: `scene1/${this.targetId}`,
             defaultZoomLvl : 0,
-            defaultYaw : 1.3,
+            defaultYaw : `${this.degToRad(this.targetyaw)}`,
+            adapter: [EquirectangularAdapter, {
+                useXmpData: false // Disables reading GPano XMP orientation metadata
+            }],
             navbar : false
         });
 
@@ -238,13 +239,6 @@ export default class splitcore{
 
             this.handlePositionListener(param)
 
-        })
-
-
-        this.sourceviewer.addEventListener('ready',()=>{
-
-            console.log("ready")
-            // this.sourceviewer.rotate({yaw:2,pitch:0})
         })
 
 

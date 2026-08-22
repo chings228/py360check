@@ -13,41 +13,27 @@
         "imports": {
             "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
             "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.module.js"
+           
         }
     }
 </script>
 
 <script type="module">
     import { Viewer } from '@photo-sphere-viewer/core';
+    import { EquirectangularAdapter } from '@photo-sphere-viewer/core';
 
     const viewer = new Viewer({
         container: document.querySelector('#viewer'),
-        panorama: './pano4.png',
+        panorama: 'pano4.jpg',
         defaultZoomLvl : 0,
+        adapter: [EquirectangularAdapter, {
+            useXmpData: false // Disables reading GPano XMP orientation metadata
+        }],
 
-        defaultYaw : 1,
+        defaultYaw : 0,
     });
 
 
-    viewer.addEventListener("ready",()=>{
-
-        console.log("ready")
-       // viewer.rotate({yaw:2,pitch:0})
-    })
-
-
-
-    viewer.addEventListener("panorama-loaded",()=>{
-
-console.log("pan ready")
-// viewer.rotate({yaw:3,pitch:0})
-})
-
-    setTimeout(()=>{
-        console.log("timeout")
-        // viewer.rotate({yaw:2,pitch:0})
-       
-    },100)
 
     // 'scene1/tymru13ciuwcspp56rkkdykgb.jpg',
 </script>
