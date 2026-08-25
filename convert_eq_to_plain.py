@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 from pathlib import Path
+import os
+import sys
 
 def equirectangular_to_perspective(img, fov=90, theta=0, phi=0, out_hw=(512,512)):
     """
@@ -59,14 +61,26 @@ def equirectangular_to_perspective(img, fov=90, theta=0, phi=0, out_hw=(512,512)
 
 # Example usage
 
-folder = 'scene1'
+
 # filename = "tymru13ciuwcspp56rkkdykgb"
 # angle =45
 
 
-path = 'scene1'
+# python3 convert_eq_to_plain.py {code}
 
-folder_path = Path(path)
+if (len(sys.argv) < 2) :
+    sys.exit("\n\nno code , pls refer to p {code}\n\n")
+
+
+code = sys.argv[1]
+
+sourcepath = f"photo_{code}"
+
+outputpath = f"photo_{code}_output"
+
+os.makedirs(outputpath, exist_ok=True)
+
+folder_path = Path(sourcepath)
 
 
 for file_path in folder_path.iterdir():
@@ -75,12 +89,16 @@ for file_path in folder_path.iterdir():
     filename = file_path.stem
 
 
+   
+
 
     for angle in range(0,360,90):
 
-        exportfilename = f"plain3/{filename}-{angle}.jpg"
+        exportfilename = f"{outputpath}/{filename}-{angle}.jpg"
 
-        img = cv2.imread(f"{folder}/{filename}.jpg")
+        print(filename,exportfilename)
+
+        img = cv2.imread(f"{sourcepath}/{filename}.jpg")
 
 
         persp = equirectangular_to_perspective(img, fov=90, theta=angle, phi=0, out_hw=(512,1024))

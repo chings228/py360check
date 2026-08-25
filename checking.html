@@ -46,13 +46,16 @@
 
             const originalfolder = "scene1"
 
+            const ref1 = `${item.tofilename} - ${item.fromfilename}`
+            const ref2 = `${item.fromfilename} - ${item.tofilename}`
+
             html += `
 
                 <br>
                 
                     <div><a target=split href=splitview.html?source=${item.fromfilename}&sourceyaw=${item.fromyaw}&target=${item.tofilename}&targetyaw=${item.toyaw}>Photos</a> 
                         
-                    ${item.fromfilename} ${item.fromyaw}  / ${item.tofilename} ${item.toyaw} isTol : ${item.isTolerancePass} Scale : ${item.scale}
+                    ${item.fromfilename} ${item.fromyaw}  / ${item.tofilename} ${item.toyaw} isTol : ${item.isTolerancePass} Scale : ${item.scale} ref ${ref1} ${ref2}
                     <div style='display:flex;flex-direction:row'>
                     <img  src = '${item.fromfilePath}'><img src = '${item.tofilePath}'> 
                     </div>
