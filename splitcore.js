@@ -171,6 +171,8 @@ export default class splitcore{
 
     UIPhotoView(){
 
+        const code = this.getUrlParameter("code")
+
         this.sourceId = this.pictures[0]
         this.targetId = this.pictures[0]
 
@@ -199,7 +201,7 @@ export default class splitcore{
 
         this.sourceviewer = new Viewer({
             container: document.querySelector('#sourceviewer'),
-            panorama: `scene1/${this.sourceId}`,
+            panorama: `photo_${code}/${this.sourceId}`,
             defaultZoomLvl : 0,
             defaultYaw : this.degToRad(this.sourceyaw),
             adapter: [EquirectangularAdapter, {
@@ -210,7 +212,7 @@ export default class splitcore{
 
         this.targetviewer = new Viewer({
             container: document.querySelector('#targetviewer'),
-            panorama: `scene1/${this.targetId}`,
+            panorama: `photo_${code}/${this.targetId}`,
             defaultZoomLvl : 0,
             defaultYaw : `${this.degToRad(this.targetyaw)}`,
             adapter: [EquirectangularAdapter, {

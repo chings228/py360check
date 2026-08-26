@@ -173,7 +173,7 @@ for file_path in folder_path.iterdir():
                     result = are_same_fov(photo,cphoto,tolerance)
 
 
-                    if (result["isSame"] and (result['scale'] > 0.5 and result['scale'] <0.9)) :
+                    if (result["isSame"] and (result['scale'] > 0.3 and result['scale'] <0.9)) :
 
                         # print("\n")
 

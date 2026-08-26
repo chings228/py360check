@@ -18,6 +18,7 @@
 <script>
 
     let resultlist
+    let code
 
     $(function(){
 
@@ -26,9 +27,30 @@
     })
 
 
+    function getUrlParameter(sParam) {
+
+        console.log("geturl",sParam)
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+
+        for (var i = 0; i < sURLVariables.length; i++) {
+            var sParameterName = sURLVariables[i].split('=');
+
+            var key = sParameterName[0];
+
+            if (key == sParam) {
+            return sParameterName[1];
+            }
+        }
+    }
+
+
     function readJson(){
 
-        $.getJSON( "fovresult.json", data => {
+
+        code = getUrlParameter("code")
+
+        $.getJSON( `fovresult-${code}.json`, data => {
 
             console.log(data)
             genUI(data)
@@ -53,7 +75,7 @@
 
                 <br>
                 
-                    <div><a target=split href=splitview.html?source=${item.fromfilename}&sourceyaw=${item.fromyaw}&target=${item.tofilename}&targetyaw=${item.toyaw}>Photos</a> 
+                    <div><a target=split href=splitview.html?code=${code}&source=${item.fromfilename}&sourceyaw=${item.fromyaw}&target=${item.tofilename}&targetyaw=${item.toyaw}>Photos</a> 
                         
                     ${item.fromfilename} ${item.fromyaw}  / ${item.tofilename} ${item.toyaw} isTol : ${item.isTolerancePass} Scale : ${item.scale} ref ${ref1} ${ref2}
                     <div style='display:flex;flex-direction:row'>

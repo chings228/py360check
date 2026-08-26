@@ -89,8 +89,6 @@ for file_path in folder_path.iterdir():
     filename = file_path.stem
 
 
-   
-
 
     for angle in range(0,360,90):
 
