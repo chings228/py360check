@@ -125,7 +125,12 @@ plainfolder = f"photo_{code}_output"
 folder_path = Path(sourepath)
 counter = 0;
 
-resultlist = []
+result = []
+
+spotlist = []
+
+
+comparelist = []
 
 dummylist = ["fcd81es2iht9aexpk38fgurha"]
 
@@ -141,7 +146,7 @@ for file_path in folder_path.iterdir():
 # for filename in dummylist :
 
 
-
+    spotlist.append(filename)
 
     for angle in range(0,360,90) :
 
@@ -195,13 +200,16 @@ for file_path in folder_path.iterdir():
                        
 
 
-                        resultlist.append(fovresult)
+                        comparelist.append(fovresult)
 
                         print("\n")
 
 
+result['comparelist'] = comparelist
+result['spotlist'] = spotlist
 
+print(result)
 
 
 with open(f"fovresult-{code}.json", "w", encoding="utf-8") as file:
-    json.dump(resultlist, file, indent=4 ,ensure_ascii=False)
+    json.dump(result, file, indent=4 ,ensure_ascii=False)
