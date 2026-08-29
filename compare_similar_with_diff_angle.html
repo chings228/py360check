@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checking sss</title>
+    <title>compare similar diff</title>
 
     <script src= "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 
@@ -19,6 +19,7 @@
 
     let resultlist
     let code
+    let photodict = {}
 
     $(function(){
 
@@ -53,45 +54,94 @@
         $.getJSON( `fovresult-${code}.json`, data => {
 
             console.log(data)
-            genUI(data)
+
+            handleSelectionList(data)
+ 
 
         });
 
     }
 
-    function genUI(data){
 
-        let html = ''
-
-        data.forEach(item => {
+    function handleSelectionList(data){
 
 
-            const originalfolder = "scene1"
+        const photolist = data.spotlist
 
-            const ref1 = `${item.tofilename} - ${item.fromfilename}`
-            const ref2 = `${item.fromfilename} - ${item.tofilename}`
+        const comparelist = data.comparelist
 
-            html += `
+        const anglelist = [0,90,180,270]
 
-                <br>
-                
-                    <div><a target=split href=splitview.html?code=${code}&source=${item.fromfilename}&sourceyaw=${item.fromyaw}&target=${item.tofilename}&targetyaw=${item.toyaw}>Photos</a> 
-                        
-                    ${item.fromfilename} ${item.fromyaw}  / ${item.tofilename} ${item.toyaw} isTol : ${item.isTolerancePass} Scale : ${item.scale} ref ${ref1} ${ref2}
-                    <div style='display:flex;flex-direction:row'>
-                    <img  src = '${item.fromfilePath}'><img src = '${item.tofilePath}'> 
-                    </div>
-                <br>
 
-            `
+
+        let selectionlist = `<select>`
+
+
+        photolist.forEach(photo => {
+
+            anglelist.forEach(angle=>{
+
+
+                const photofullname = `${photo}-${angle}.jpg`
+                const photofullpath = `photo_${code}_output/${photofullname}`
+
+                // console.log(photofullpath)
+
+                const filter = comparelist.filter(e=>{
+
+                    return e.fromfilePath == photofullpath
+                } )
+
+
+                photodict[photofullname] = filter
+
+                //console.log(filter)
+
+                str = `${photofullname} ${filter.length}`
+
+                selectionlist += `<option value = '${photofullname}'>${str}\n`
+
+            })
+
             
         });
 
+        selectionlist +='</select>'
 
-        $("body").append(html)
+        console.log(selectionlist)
+
+
+        $("#selectbar").html(selectionlist)
+
+
+        $("#selectbar").change(e=>{
+
+            console.log(e.target.value)
+
+            changePhoto(e.target.value)
+        })
+
+        console.log(photodict)
+
+
+
+
+
+
+
 
     }
 
+
+    function changePhoto(photoname){
+
+        console.log(photoname)
+
+
+        
+
+
+    }
 
 
 
@@ -109,7 +159,12 @@
 <body>
 
 
+    <div id="selectbar"></div>
 
+    <div id="fromphoto"></div>
+
+
+    <div id="tophoto"></div>
 
 
     

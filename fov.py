@@ -125,7 +125,7 @@ plainfolder = f"photo_{code}_output"
 folder_path = Path(sourepath)
 counter = 0;
 
-result = []
+finalresult = {}
 
 spotlist = []
 
@@ -205,11 +205,11 @@ for file_path in folder_path.iterdir():
                         print("\n")
 
 
-result['comparelist'] = comparelist
-result['spotlist'] = spotlist
+finalresult['comparelist'] = comparelist
+finalresult['spotlist'] = spotlist
 
-print(result)
+print(finalresult)
 
 
 with open(f"fovresult-{code}.json", "w", encoding="utf-8") as file:
-    json.dump(result, file, indent=4 ,ensure_ascii=False)
+    json.dump(finalresult, file, indent=4 ,ensure_ascii=False)
