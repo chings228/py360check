@@ -83,6 +83,10 @@
 
 
                 const photofullname = `${photo}-${angle}.jpg`
+
+
+
+
                 const photofullpath = `photo_${code}_output/${photofullname}`
 
                 // console.log(photofullpath)
@@ -125,11 +129,6 @@
 
 
 
-
-
-
-
-
     }
 
 
@@ -137,8 +136,40 @@
 
         console.log(photoname)
 
+        const path = `photo_${code}_output/${photoname}`
 
-        
+
+        const fromdiv = `
+
+            <img src= '${path}'>
+
+        `
+        console.log(fromdiv)
+
+        $("#fromphoto").html(fromdiv)
+
+
+        let todiv = ``
+
+        photodict[photoname].forEach(photo=>{
+
+            console.log(photo)
+
+
+
+            todiv += `
+            scale : ${photo.tofilePath} ${photo.scale}
+            <img src=${photo.tofilePath}><br>`
+
+
+        })
+
+        $("#tophoto").html(todiv)
+
+
+       
+
+
 
 
     }
@@ -163,6 +194,7 @@
 
     <div id="fromphoto"></div>
 
+    <hr>
 
     <div id="tophoto"></div>
 
