@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>two photos</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js" integrity="sha512-PYku51kWkxxuh0OiQHi8INwfDEVcEe9JYBiZCA21G0ITGdEUU7scEhTyutt69jK591vKJmBhPMP+yYMd6J88nQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
@@ -20,10 +20,70 @@
     </script>
 
 
-    <script src="towphotos.js" type="module"></script>
+    <script src="twophotos.js" type="module"></script>
 
     <style>
 
+
+        *{
+            margin : 0px;
+            box-sizing: border-box;
+        }
+
+        #outer{
+
+            display:flex;
+            flex-direction: row;
+        }
+
+        .inner{
+
+            width : 50vw;
+            height : 100vh;
+            border : 1px solid black;
+        }
+
+
+        #source{
+            background-color: aliceblue;
+        }
+
+        #target{
+            background-color: aqua;
+        }
+
+
+        .spotoptiondiv{
+
+            background-color: blueviolet;
+            height : 5vh;
+            padding : 5px;
+
+        }
+
+        .plaindiv{
+            background-color: red;
+            height : 15vh;
+            overflow: hidden;
+            display: inline;
+            float: none;
+            width : 100%;
+
+        }
+
+        .photodiv{
+
+            background-color: brown;
+            height: 60vh;
+           
+        }
+
+        .datadiv{
+
+            background-color: yellow;
+            height : 20vh;
+            padding : 5px;
+        }
 
 
 
@@ -37,7 +97,15 @@
 <body>
 
 
+    <div id="outer">
 
+        <div id="source" class="inner"></div>
+
+        <div id = "target" class="inner"></div>
+
+
+
+    </div>
 
 
 
