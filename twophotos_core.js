@@ -15,28 +15,13 @@ export default class Core{
     }
 
 
-    getUrlParameter(sParam) {
 
-        console.log("geturl",sParam)
-          var sPageURL = window.location.search.substring(1);
-          var sURLVariables = sPageURL.split('&');
-    
-          for (var i = 0; i < sURLVariables.length; i++) {
-            var sParameterName = sURLVariables[i].split('=');
-    
-            var key = sParameterName[0];
-    
-            if (key == sParam) {
-              return sParameterName[1];
-            }
-          }
-        }
 
 
 
     init(){
 
-        this.code = this.getUrlParameter('code')
+        this.code = Common.getUrlParameter('code')
 
         console.log(this.code)
 
@@ -51,10 +36,12 @@ export default class Core{
 
             this.createView()
 
+
+
         })
 
 
-
+        this.submitbutton()
 
 
 
@@ -79,6 +66,49 @@ export default class Core{
 
     }
 
+
+    submitbutton(){
+
+
+
+        $("#btn_submit").click(e=>{
+
+            console.log(this.sourceView)
+
+
+            const param = {}
+
+
+
+            param.sourcepitch = this.sourceView.pitch
+            param.sourceyaw = this.sourceView.yaw
+            param.sourcespot = this.sourceView.spot
+
+            param.targetpitch = this.targetView.pitch
+            param.targetyaw = this.targetView.yaw
+            param.targetspot = this.targetView.spot
+
+            param.method = "connect.php"
+    
+    
+            console.log(param)
+
+            Common.api(param)
+            .then(e=>{
+
+                console.log(e)
+
+            })
+
+        })
+
+
+
+
+
+
+
+    }
 
 
 

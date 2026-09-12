@@ -171,7 +171,9 @@ export default class splitcore{
 
     UIPhotoView(){
 
-        const code = this.getUrlParameter("code")
+       const code = this.getUrlParameter("code")
+
+       this.code = code
 
         this.sourceId = this.pictures[0]
         this.targetId = this.pictures[0]
@@ -277,9 +279,13 @@ export default class splitcore{
         }
         else{
             this.sourceId = e.img
+
+
         }
 
-        viewer.setPanorama(`scene1/${e.img}`)
+        const link = `photo_${this.code}/${e.img}`
+
+        viewer.setPanorama(link)
 
         this.UIConnectedDetail()
 

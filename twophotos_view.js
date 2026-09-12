@@ -6,6 +6,8 @@ import { Viewer,EquirectangularAdapter  } from '@photo-sphere-viewer/core';
 export default class View extends Notification{
 
 
+
+
     constructor(data){
 
         super()
@@ -15,10 +17,13 @@ export default class View extends Notification{
         this.type = data.type
 
         this.spots = data.spots
+        this.code = data.code
 
         this.filepath = `photo_${data.code}`
 
-
+        this.yaw = 0
+        this.pitch  = 0
+        this.spot = this.spots[0]
 
 
         this.init()
@@ -26,15 +31,6 @@ export default class View extends Notification{
 
     }
 
-    degToRad(angle){
-
-        return angle * Math.PI / 180
-    }
-
-    radToDeg(angle){
-
-        return angle * 180 / Math.PI
-    }
 
 
 
@@ -89,14 +85,16 @@ export default class View extends Notification{
 
 
             console.log("change",e)
-            const type = $(e.target).val()
+            const spot = $(e.target).val()
 
-            console.log(type)
+            console.log(spot)
+
+            this.changePhoto(spot)
 
         })
 
 
-        const photolink = `${this.filepath}/${this.spots[0]}.jpg`
+        const photolink = `${this.filepath}/${this.spot}.jpg`
         const containerStr = `#${this.type} .photodiv`
 
         console.log(containerStr)
@@ -128,10 +126,43 @@ export default class View extends Notification{
 
             console.log(this.type)
             const position = e.position
-            console.log(position.pitch,position.yaw)
-            console.log(this.radToDeg(position.pitch),this.radToDeg(position.yaw))
+            // console.log(`rad ${Common.dformat(position.pitch)},${Common.dformat(position.yaw)}`)
+
+            this.yaw = Common.dformat(Common.radToDeg(position.yaw))
+
+            this.pitch = Common.dformat(Common.radToDeg(position.pitch))
+
+            // console.log(`deg  yaw ${this.yaw}  pitch ${this.pitch}`)
+
+            const text = ` Rad : yaw ${position.yaw} pitch ${position.pitch}
+            <br>
+            Deg : yaw : ${this.yaw} pitch ${this.pitch}
+            
+            `
+
+
+            $(`#${this.type} .datadiv`).html(text)
 
         })
+
+
+
+    }
+
+
+    changePhoto(spot){
+
+            this.spot = spot
+
+            const link = `photo_${this.code}/${spot}.jpg`
+
+            this.psviewer.setPanorama(link)
+
+
+
+            const plaindivhtml = `<img src=${link} width = 100%>`
+
+            $(`#${this.type} .plaindiv`).html(plaindivhtml)
 
 
 
