@@ -42,6 +42,8 @@ export default class View extends Notification{
 
         </div>
 
+        <div class = spotid>sdfdf</div>
+
         <div class=plaindiv>
 
         </div>
@@ -94,6 +96,8 @@ export default class View extends Notification{
         })
 
 
+
+        this.changeSpotIdTitle(this.spot)
         const photolink = `${this.filepath}/${this.spot}.jpg`
         const containerStr = `#${this.type} .photodiv`
 
@@ -134,7 +138,7 @@ export default class View extends Notification{
 
             // console.log(`deg  yaw ${this.yaw}  pitch ${this.pitch}`)
 
-            const text = ` Rad : yaw ${position.yaw} pitch ${position.pitch}
+            const text = ` Rad : yaw ${Common.dformat(position.yaw)} pitch ${Common.dformat(position.pitch)}
             <br>
             Deg : yaw : ${this.yaw} pitch ${this.pitch}
             
@@ -156,7 +160,10 @@ export default class View extends Notification{
 
             const link = `photo_${this.code}/${spot}.jpg`
 
-            this.psviewer.setPanorama(link)
+            this.psviewer.setPanorama(link,{
+                transition: false,
+                speed: 0
+            })
 
 
 
@@ -164,9 +171,21 @@ export default class View extends Notification{
 
             $(`#${this.type} .plaindiv`).html(plaindivhtml)
 
+            this.changeSpotIdTitle(spot)
+
 
 
     }
+
+
+    changeSpotIdTitle(spot){
+
+        $(`#${this.type} .spotid`).html(spot)
+    }
+
+
+
+    
 
 
 

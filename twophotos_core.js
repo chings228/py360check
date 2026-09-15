@@ -41,7 +41,7 @@ export default class Core{
         })
 
 
-        this.submitbutton()
+        this.button()
 
 
 
@@ -67,7 +67,7 @@ export default class Core{
     }
 
 
-    submitbutton(){
+    button(){
 
 
 
@@ -99,6 +99,25 @@ export default class Core{
                 console.log(e)
 
             })
+
+        })
+
+
+
+        $("#btn_swap").click(e=>{
+
+
+            console.log("swap")
+
+            const sourcephoto = this.sourceView.spot
+            const targetphoto = this.targetView.spot
+
+            this.sourceView.changePhoto(targetphoto)
+            this.targetView.changePhoto(sourcephoto)
+
+            
+
+
 
         })
 
