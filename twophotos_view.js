@@ -164,6 +164,10 @@ export default class View extends Notification{
                 transition: false,
                 speed: 0
             })
+            .then(()=>{
+
+                console.log("change done")
+            })
 
 
 
