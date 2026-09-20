@@ -27,7 +27,20 @@ export default class Core{
 
             console.log(this.spots)
 
-            this.createView()
+
+
+             const path = 'https://ddev.propa360.com/controller/twophotos/walkthrough.json'
+            $.getJSON(path , data=>{
+
+                console.log(data)
+
+                this.createView(data)
+
+            })
+
+
+
+   
 
         })
 
@@ -35,7 +48,15 @@ export default class Core{
     }
 
 
-    createView(){
+
+
+
+    createView(data){
+
+
+        const link = data.link
+        console.log("link",link)
+
 
         this.filepath = `photo_${this.code}`
 
@@ -47,7 +68,29 @@ export default class Core{
             const photolink = `${this.filepath}/${spot}.jpg`
 
 
-            html += `<div class=photowrap ><div class=name>${spot}</div><img class=photo src=${photolink}></div>`
+            let linktext = ``
+
+            console.log(spot)
+
+            if (link[spot]){
+
+                console.log("link exist")
+            }
+            else{
+                console.log("link not exist")
+            }
+
+
+
+
+
+
+
+            html += `<div class=photowrap id=${spot} >
+            <div class=name>${spot}</div>
+            <img class=photo src=${photolink}>
+            <div class =link>${linktext}</div>
+            </div>`
 
             
         });
@@ -55,6 +98,10 @@ export default class Core{
 
 
         $("#outer").html(html)
+
+
+
+
 
 
 
