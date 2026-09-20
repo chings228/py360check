@@ -6,6 +6,8 @@ import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
 export default  class View extends Notification{
 
 
+    markers = {}
+
     constructor(data){
 
         super()
@@ -58,12 +60,16 @@ export default  class View extends Notification{
 
             console.log("ready")
 
+            this.markersPlugin = this.psviewer.getPlugin(MarkersPlugin);
+
             this.addMarker()
+
+
+           
         })
 
 
 
-        const markersPlugin = this.psviewer.getPlugin(MarkersPlugin);
 
 
 
@@ -74,14 +80,16 @@ export default  class View extends Notification{
 
     addMarker(){
 
+        this.markers  = {}
+
 
         console.log(this.psviewer)
 
         console.log(MarkersPlugin)
 
-        const markersPlugin = this.psviewer.getPlugin(MarkersPlugin);
+     
 
-        console.log(markersPlugin)
+        console.log(this.markersPlugin)
 
         const neighbours  = this.data[this.spot];
 
@@ -95,7 +103,9 @@ export default  class View extends Notification{
             const pitch = Common.degToRad(neighbour.sourcepitch - 22.5)
 
 
-            markersPlugin.addMarker({
+            const mid = Common.makeid(10)
+
+            this.markersPlugin.addMarker({
 
 
 
@@ -108,11 +118,64 @@ export default  class View extends Notification{
                     generated: true,
                 },
                 size : {width: 50, height:50},
-                id : "sdfsdf"
-            });
+                id : mid
+
+              
+ 
+            })
+
+            this.markers[mid] = neighbour
 
 
         });
+
+        this.markersPlugin.addEventListener('select-marker', async ({ marker }) => {
+           
+           
+            console.log('Clicked marker ID:', marker.id);
+
+            const mdata = this.markers[marker.id]
+
+            console.log(mdata)
+
+
+            await  this.psviewer.animate({
+
+                yaw : Common.degToRad(mdata.sourceyaw),
+                pitch : Common.degToRad(mdata.sourcepitch),
+                speed : 300
+
+            })
+
+            console.log("roate finish")
+
+
+            await this.psviewer.animate({
+
+                    zoom : 50,
+                    speed : 300
+    
+            })
+
+           console.log("zoomfinish")
+
+
+             const photolink = `${this.filepath}/${mdata.targetspot}.jpg`
+
+             this.markersPlugin.clearMarkers()
+
+            
+            await this.psviewer.setPanorama(photolink,{
+
+                zoom : 0
+            })
+           
+
+
+
+
+          });
+
 
 
 
