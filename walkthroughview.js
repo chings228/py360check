@@ -15,12 +15,12 @@ export default  class View extends Notification{
 
 
         this.filepath = `photo_home1`
-        this.spot = "fcd81es2iht9aexpk38fgurha"
+ 
 
   
 
         console.log(this.filepath)
-        console.log(MarkersPlugin)
+
 
 
         this.init()
@@ -31,6 +31,10 @@ export default  class View extends Notification{
 
     init(){
 
+
+        this.spot = this.data.manifest.startspot
+
+        console.log("start spot ",this.spot)
 
        const photolink = `${this.filepath}/${this.spot}.jpg`
 
@@ -83,21 +87,16 @@ export default  class View extends Notification{
         this.markers  = {}
 
 
-        console.log(this.psviewer)
-
-        console.log(MarkersPlugin)
-
-     
-
-        console.log(this.markersPlugin)
-
-        const neighbours  = this.data[this.spot];
+        const neighbours  = this.data.link[this.spot]
 
         console.log(neighbours)
 
-        neighbours.forEach(neighbour => {
+       // neighbours.forEach(neighbour => {
+
+
+        for (const key in neighbours){
             
-            console.log(neighbour)
+            const neighbour = neighbours[key];
 
             const yaw = Common.degToRad(neighbour.sourceyaw)
             const pitch = Common.degToRad(neighbour.sourcepitch - 22.5)
@@ -127,7 +126,10 @@ export default  class View extends Notification{
             this.markers[mid] = neighbour
 
 
-        });
+        }
+
+        console.log(this.markers)
+
 
         this.markersPlugin.addEventListener('select-marker', async ({ marker }) => {
            
@@ -135,6 +137,8 @@ export default  class View extends Notification{
             console.log('Clicked marker ID:', marker.id);
 
             const mdata = this.markers[marker.id]
+
+        
 
             console.log(mdata)
 
@@ -152,15 +156,19 @@ export default  class View extends Notification{
 
             await this.psviewer.animate({
 
-                    zoom : 50,
+                    zoom : 30,
                     speed : 300
     
             })
+            
+           
 
            console.log("zoomfinish")
 
 
-             const photolink = `${this.filepath}/${mdata.targetspot}.jpg`
+            this.spot = mdata.targetspot
+
+             const photolink = `${this.filepath}/${this.spot}.jpg`
 
              this.markersPlugin.clearMarkers()
 
@@ -168,9 +176,10 @@ export default  class View extends Notification{
             await this.psviewer.setPanorama(photolink,{
 
                 zoom : 0
+              
             })
            
-
+            this.addMarker()
 
 
 
