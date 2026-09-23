@@ -75,10 +75,19 @@ export default class Core{
             if (link[spot]){
 
                 console.log("link exist")
+
+                for (const neighbour in link[spot]){
+
+                    console.log("neighbour",neighbour)
+
+                    linktext += `twopho<br>`
+
+                }
+
+
+
             }
-            else{
-                console.log("link not exist")
-            }
+
 
 
 
