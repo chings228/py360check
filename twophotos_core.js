@@ -55,8 +55,44 @@ export default class Core{
         data.type = "source"
         data.code = this.code
 
+        data.spot = this.spots[0]
+        data.yaw = 0
+        data.pitch = 0
+
+        // init source
+
+        
+
+        if (Common.getUrlParameter('sourcespot')){
+
+
+            data.spot = Common.getUrlParameter('sourcespot')
+            data.yaw = Common.getUrlParameter('sourceyaw')
+            data.pitch = Common.getUrlParameter('sourcepitch')
+
+        }
+       
+
+
+
+
         this.sourceView  = new View(data)
 
+        
+        
+        
+        // init target 
+
+        if (Common.getUrlParameter('targetspot')){
+
+
+            data.spot = Common.getUrlParameter('targetspot')
+            data.yaw = Common.getUrlParameter('targetyaw')
+            data.pitch = Common.getUrlParameter('targetpitch')
+        }
+        
+        
+        
         data.type = "target"
 
         this.targetView = new View(data)

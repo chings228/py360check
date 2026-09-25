@@ -30,13 +30,30 @@ export default class Core{
 
 
              const path = 'https://ddev.propa360.com/controller/twophotos/walkthrough.json'
-            $.getJSON(path , data=>{
 
-                console.log(data)
+             console.log(path)
+            
+             $.get(path , str=>{
 
-                this.createView(data)
+                console.log("sdfsdf")
 
-            })
+                console.log("str",str)
+
+                if (str.trim() != ''){
+                    this.createView(JSON.parse(str))
+                }
+                else{
+
+                    let data = {}
+                    data.link = {}
+
+                    this.createView(data)
+                }
+
+            
+
+            },"text")
+
 
 
 
@@ -80,7 +97,13 @@ export default class Core{
 
                     console.log("neighbour",neighbour)
 
-                    linktext += `twopho<br>`
+                    const info = link[spot][neighbour]
+
+                    const linkstr = `./two_photos.html?code=${this.code}&sourcespot=${spot}&sourcepitch=${info.sourcepitch}&sourceyaw=${info.sourceyaw}&targetspot=${info.targetspot}&targetpitch=${info.targetpitch}&targetyaw=${info.targetyaw}`
+
+                    console.log(linkstr)
+
+                    linktext += `<a target=_new href=${linkstr}>${info.targetspot} s ${info.sourceyaw} t ${info.targetyaw}</a><br>`
 
                 }
 

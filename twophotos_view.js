@@ -21,9 +21,14 @@ export default class View extends Notification{
 
         this.filepath = `photo_${data.code}`
 
-        this.yaw = 0
-        this.pitch  = 0
-        this.spot = this.spots[0]
+        // this.yaw = 0
+        // this.pitch  = 0
+        // this.spot = this.spots[0]
+
+
+        this.yaw = data.yaw
+        this.pitch = data.pitch
+        this.spot = data.spot
 
 
         this.init()
@@ -54,7 +59,7 @@ export default class View extends Notification{
 
         <div class = datadiv>
 
-        yaw : 0  , pitch : 0
+        yaw : ${this.yaw}  , pitch : ${this.pitch}
 
         </div>
         
@@ -108,12 +113,17 @@ export default class View extends Notification{
         $(`#${this.type} .plaindiv`).html(plaindivhtml)
 
 
+        console.log(this.yaw,this.pitch)
 
         this.psviewer = new Viewer({
 
             container: document.querySelector(containerStr),
             panorama: photolink,
             defaultZoomLvl : 0,
+            position: {
+                yaw: `${this.yaw}deg`,   // or a number in radians/degrees e.g. 0
+                pitch: `${this.spot}deg`  // horizontal/vertical starting angles
+              },
 
             adapter: [EquirectangularAdapter, {
                 useXmpData: false // Disables reading GPano XMP orientation metadata
